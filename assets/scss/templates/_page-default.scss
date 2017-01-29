@@ -1,0 +1,15 @@
+#page {
+  @include grid-row();
+  margin-top: 3rem;
+
+  .main-content {
+    @include breakpoint(small) {
+      @include span(12);
+    }
+
+    @include breakpoint(medium) {
+      @include span(8);
+    }
+  }
+
+}

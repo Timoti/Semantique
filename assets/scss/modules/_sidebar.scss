@@ -1,0 +1,10 @@
+.sidebar {
+  @include breakpoint(small) {
+    @include span(12);
+  }
+
+  @include breakpoint(medium) {
+    @include span(4);
+    margin-top: 1rem;
+  }
+}
