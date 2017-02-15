@@ -24,21 +24,29 @@
 			 </header>
 			 <?php do_action( 'foundationpress_page_before_entry_content' ); ?>
 
-	<?php if ( is_home() ) { ?>
+
+	<?php if ( is_front_page() ) { ?>
 		<!-- This is the blog posts index -->
-		 <h1> This is Home</h1>
+		 <h1> This is the Front Page</h1>
+
+
+<?php if ( is_active_sidebar( 'frontpage-callouts-area' ) ) : ?>
+    <div class="frontpage-callouts-area-div">
+        <?php dynamic_sidebar( 'frontpage-callouts-area' ); ?>
+    </div><!-- frontpage-callouts-area -->
+<?php endif; ?>
 
 
 
 	<?php } else { ?>
 
-	<h1> This is NOT Home</h1> 
+	<h1> This is NOT the Front Page</h1> 
 
  <?php 
 }
 ?>
 
-<?php if(is_home()) { ?> <hr><div id=”nash”> <p>A <a href=”http://www.carolenash.com”>classic motorbike insurance</a> quote from Carole Nash will amaze you with how competitive the prices are!</p></div> <?php } ?>
+
 
 
 
