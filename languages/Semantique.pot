@@ -3,172 +3,179 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: foundationpress-libsass-template 5.4.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-13 17:56+0200\n"
-"PO-Revision-Date: 2016-10-16 10:06+0200\n"
-"Last-Translator: Esa Rantanen <esa@eccola.fi>\n"
-"Language-Team: Eccola <esa@eccola.fi>\n"
-"Language: fi_FI\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.9\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #: 404.php:8
 msgid "File Not Found"
-msgstr "Ei löydy"
+msgstr ""
 
 #: 404.php:12
-msgid "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
-msgstr "Sivu jota etsit voi olla poistettu, sen nimi on muuttunut, tai on tilapäisesti poissa käytöstä."
+msgid ""
+"The page you are looking for might have been removed, had its name changed, "
+"or is temporarily unavailable."
+msgstr ""
 
 #: 404.php:14
 msgid "Please try the following:"
-msgstr "Kokeile seuraavaa:"
+msgstr ""
 
 #: 404.php:16
 msgid "Check your spelling"
-msgstr "Tarkista kieliasu"
+msgstr ""
 
 #: 404.php:17
 #, php-format
 msgid "Return to the <a href=\"%s\">home page</a>"
-msgstr "Palaa <a href=\"%s\">etusivulle</a>"
+msgstr ""
 
 #: 404.php:18
 msgid "Click the <a href=\"javascript:history.back()\">Back</a> button"
-msgstr "Klikkaa <a href=\"javascript:history.back()\">Takaisin</a> -painiketta"
+msgstr ""
 
 #. /previous pages when applicable
 #: archive.php:21 index.php:24 search.php:25
 msgid "&larr; Older posts"
-msgstr "&larr; Vanhempia artikkeleita"
+msgstr ""
 
 #: archive.php:22 index.php:25 search.php:26
 msgid "Newer posts &rarr;"
-msgstr "Uudempia artikkeleita &rarr;"
+msgstr ""
 
 #: comments.php:8
 #, php-format
 msgid "<cite class=\"fn\">%s</cite>"
-msgstr "<cite class=\"fn\">%s</cite>"
+msgstr ""
 
 #: comments.php:9
 #, php-format
 msgid "%1$s"
-msgstr "%1$s"
+msgstr ""
 
 #: comments.php:10
 msgid "(Edit)"
-msgstr "(Muokkaa)"
+msgstr ""
 
 #: comments.php:16
 msgid "Your comment is awaiting moderation."
-msgstr "Kommenttisi on moderointijonossa."
+msgstr ""
 
 #: comments.php:31
 msgid "Please do not load this page directly. Thanks!"
-msgstr "Älä lataa tätä sivua suoraan, kiitos!"
+msgstr ""
 
 #: comments.php:36
 msgid "This post is password protected. Enter the password to view comments."
-msgstr "Tämä sivu on suojattu salasanalla. Anna salasana tarkastellaksesi kommentteja."
+msgstr ""
 
 #: comments.php:46
 msgid "No Responses to"
-msgstr "Ei kommentteja artikkeliin "
+msgstr ""
 
 #: comments.php:46
 msgid "One Response to"
-msgstr "Yksi kommentti artikkeliin"
+msgstr ""
 
 #: comments.php:46
 msgid "% Responses to"
-msgstr "% kommenttia artikkeliin "
+msgstr ""
 
 #: comments.php:53
 msgid "&larr; Older comments"
-msgstr "&larr; Vanhempia kommentteja"
+msgstr ""
 
 #: comments.php:54
 msgid "Newer comments &rarr;"
-msgstr "Uudempia kommentteja &rarr;"
+msgstr ""
 
 #: comments.php:61
 msgid "Leave a Reply"
-msgstr "Kommentoi"
+msgstr ""
 
 #: comments.php:61
 #, php-format
 msgid "Leave a Reply to %s"
-msgstr "Kommentoi: %s"
+msgstr ""
 
 #: comments.php:64
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
-msgstr "Sinun täytyy <a href=\"%s\">kirjautua sisään</a> kommentoidaksesi."
+msgstr ""
 
 #: comments.php:68
 #, php-format
 msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
-msgstr "Kirjautunut nimellä: <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr ""
 
 #: comments.php:68
 msgid "Log out of this account"
-msgstr "Kirjaudu ulos"
+msgstr ""
 
 #: comments.php:68
 msgid "Log out &raquo;"
-msgstr "Kirjaudu ulos &raquo;"
+msgstr ""
 
 #: comments.php:71
 msgid "Name"
-msgstr "Nimi"
+msgstr ""
 
 #: comments.php:71 comments.php:75
 msgid " (required)"
-msgstr "(pakollinen)"
+msgstr ""
 
 #: comments.php:75
 msgid "Email (will not be published)"
-msgstr "Email (ei koskaan julkaista)"
+msgstr ""
 
 #: comments.php:79
 msgid "Website"
-msgstr "Verkkosivu"
+msgstr ""
 
 #: comments.php:84
 msgid "Comment"
-msgstr "Kommentoi"
+msgstr ""
 
 #: comments.php:87
 msgid "You can use these tags:"
-msgstr "Voit käyttää näitä tageja:"
+msgstr ""
 
 #: comments.php:88
 msgid "Submit Comment"
-msgstr "Lähetä kommentti"
+msgstr ""
 
 #: content-none.php:11
 msgid "Nothing Found"
-msgstr "Mitään ei löytynyt"
+msgstr ""
 
 #: content-none.php:17
 #, php-format
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Oletko valmis julkaisemaan ensimmäisen kirjoituksesi? <a href=\"%1$s\">Aloita tästä</a>."
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
 
 #: content-none.php:21
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Pahoittelut, mitään ei löytynyt antamillasi hakusanoilla. Kokeile uudestaan joillain toisilla hakusanoilla."
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
 
 #: content-none.php:26
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Näyttää siltä että emme löydä etsimääsi. Kokeile hakutoimintoa."
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
 
 #. /archive/search.
 #. *
@@ -177,85 +184,87 @@ msgstr "Näyttää siltä että emme löydä etsimääsi. Kokeile hakutoimintoa.
 #.
 #: content.php:16
 msgid "Continue reading..."
-msgstr "Lue lisää..."
+msgstr ""
 
 #: hero.php:40 kitchen-sink.php:739 page-full.php:19 page-sidebar-left.php:21
 #: page.php:18 single.php:27 woocommerce.php:18
 msgid "Pages:"
-msgstr "Sivut:"
+msgstr ""
 
 #: library/entry-meta.php:4
 #, php-format
 msgid "Posted on %1$s at %2$s."
-msgstr "Kirjoitettu %1$s, %2$s."
+msgstr ""
 
 #: library/entry-meta.php:5
 msgid "Written by"
-msgstr "Kirjoittanut "
+msgstr ""
 
 #: library/foundation.php:16
 msgid "&laquo;"
-msgstr "&laquo;"
+msgstr ""
 
 #: library/foundation.php:17
 msgid "&raquo;"
-msgstr "&raquo;"
+msgstr ""
 
 #: library/foundation.php:40
 #, php-format
-msgid "Please assign a menu to the primary menu location under %1$s or %2$s the design."
-msgstr "Valitse valikko ensisijaiselle valikolle %1$s or %2$s the design."
+msgid ""
+"Please assign a menu to the primary menu location under %1$s or %2$s the "
+"design."
+msgstr ""
 
 #: library/foundation.php:41
 #, php-format
 msgid "<a href=\"%s\">Menus</a>"
-msgstr "<a href=\"%s\">Valikot</a>"
+msgstr ""
 
 #: library/foundation.php:44
 #, php-format
 msgid "<a href=\"%s\">Customize</a>"
-msgstr "<a href=\"%s\">Muokkaa</a>"
+msgstr ""
 
 #: library/widget-areas.php:6
 msgid "Sidebar widgets"
-msgstr "Sivupalkin vimpaimet"
+msgstr ""
 
 #: library/widget-areas.php:7
 msgid "Drag widgets to this sidebar container."
-msgstr "Raahaa vimpaimia sivupalkkiin"
+msgstr ""
 
 #: library/widget-areas.php:16
 msgid "Footer widgets"
-msgstr "Footerin vimpaimet"
+msgstr ""
 
 #: library/widget-areas.php:17
 msgid "Drag widgets to this footer container"
-msgstr "Raahaa footerin vimpaimet tähän"
+msgstr ""
 
 #: node_modules/grunt-pot/test/fixtures/some-file.php:3
 msgid "I'm a translatable string."
-msgstr "Minä olen käännettävä teksti."
+msgstr ""
 
 #: node_modules/grunt-pot/test/fixtures/some-other-file.php:4
 msgid "Me too"
-msgstr "Minä myös"
+msgstr ""
 
 #: node_modules/grunt-pot/test/fixtures/some-other-file.php:7
 #, php-format
 msgid "I have %d apple"
 msgid_plural "I have %d apples"
-msgstr[0] "Minulla on %d omena"
-msgstr[1] "Minulla on %d omenaa"
+msgstr[0] ""
+msgstr[1] ""
 
 #. / TRANSLATORS: This should be translated as a shorthand for YEAR-MONTH-DAY using 4, 2 and 2 digits.
 #: node_modules/grunt-pot/test/fixtures/some-other-file.php:16
 msgid "yyyy-mm-dd"
-msgstr "vvvv-kk-pp"
+msgstr ""
 
 #: search.php:7
 msgid "Search Results for"
-msgstr "Hakutulokset: "
+msgstr ""
 
 #: searchform.php:6 searchform.php:10
 msgid "Search"
-msgstr "Hae"
+msgstr ""

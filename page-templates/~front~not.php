@@ -3,7 +3,7 @@
 Template Name: Front
 */
 get_header(); ?>
-
+<!-- Test The theme changes -->
 <header id="front-hero" role="banner">
 	<div class="marketing">
 		<div class="tagline">

@@ -5283,7 +5283,7 @@
 		},
 	"\/functions.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/functions.php",
 		"oF": 0
 		},
@@ -5298,7 +5298,7 @@
 		},
 	"\/header.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/header.php",
 		"oF": 0
 		},
@@ -5320,10 +5320,28 @@
 		"oAP": "\/languages\/ca.po",
 		"oF": 0
 		},
+	"\/languages\/cs_CZ.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/languages\/cs_CZ.mo",
+		"oF": 0
+		},
 	"\/languages\/cs_CZ.po": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/languages\/cs_CZ.po",
+		"oF": 0
+		},
+	"\/languages\/da_DK.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/languages\/da_DK.mo",
+		"oF": 0
+		},
+	"\/languages\/da_DK.po": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/languages\/da_DK.po",
 		"oF": 0
 		},
 	"\/languages\/de_DE.mo": {
@@ -5374,12 +5392,6 @@
 		"oAP": "\/languages\/fi.po",
 		"oF": 0
 		},
-	"\/languages\/FoundationPress.pot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/languages\/FoundationPress.pot",
-		"oF": 0
-		},
 	"\/languages\/fr_FR.mo": {
 		"ft": 8192,
 		"oA": 2,
@@ -5402,6 +5414,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/languages\/gl_ES.po",
+		"oF": 0
+		},
+	"\/languages\/he_IL.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/languages\/he_IL.mo",
+		"oF": 0
+		},
+	"\/languages\/he_IL.po": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/languages\/he_IL.po",
 		"oF": 0
 		},
 	"\/languages\/it_IT.mo": {
@@ -5500,6 +5524,12 @@
 		"oAP": "\/languages\/ro.po",
 		"oF": 0
 		},
+	"\/languages\/Semantique.pot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/languages\/Semantique.pot",
+		"oF": 0
+		},
 	"\/languages\/sv_SE.mo": {
 		"ft": 8192,
 		"oA": 2,
@@ -5512,75 +5542,87 @@
 		"oAP": "\/languages\/sv_SE.po",
 		"oF": 0
 		},
+	"\/languages\/tr_TR.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/languages\/tr_TR.mo",
+		"oF": 0
+		},
+	"\/languages\/tr_TR.po": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/languages\/tr_TR.po",
+		"oF": 0
+		},
 	"\/library\/cleanup.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/library\/cleanup.php",
 		"oF": 0
 		},
 	"\/library\/custom-nav.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/library\/custom-nav.php",
 		"oF": 0
 		},
 	"\/library\/enqueue-scripts.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/library\/enqueue-scripts.php",
 		"oF": 0
 		},
 	"\/library\/entry-meta.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/library\/entry-meta.php",
 		"oF": 0
 		},
 	"\/library\/foundation.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/library\/foundation.php",
 		"oF": 0
 		},
 	"\/library\/menu-walkers.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/library\/menu-walkers.php",
 		"oF": 0
 		},
 	"\/library\/navigation.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/library\/navigation.php",
 		"oF": 0
 		},
 	"\/library\/protocol-relative-theme-assets.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/library\/protocol-relative-theme-assets.php",
 		"oF": 0
 		},
 	"\/library\/responsive-images.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/library\/responsive-images.php",
 		"oF": 0
 		},
 	"\/library\/sticky-posts.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/library\/sticky-posts.php",
 		"oF": 0
 		},
 	"\/library\/theme-support.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/library\/theme-support.php",
 		"oF": 0
 		},
 	"\/library\/widget-areas.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/library\/widget-areas.php",
 		"oF": 0
 		},
@@ -5597,12 +5639,6 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
-		},
-	"\/page-templates\/front.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/page-templates\/front.php",
-		"oF": 0
 		},
 	"\/page-templates\/kitchen-sink.php": {
 		"ft": 8192,
@@ -5622,9 +5658,15 @@
 		"oAP": "\/page-templates\/page-sidebar-left.php",
 		"oF": 0
 		},
-	"\/page.php": {
+	"\/page-templates\/~front~not.php": {
 		"ft": 8192,
 		"oA": 0,
+		"oAP": "\/page-templates\/~front~not.php",
+		"oF": 0
+		},
+	"\/page.php": {
+		"ft": 8192,
+		"oA": 2,
 		"oAP": "\/page.php",
 		"oF": 0
 		},
@@ -5658,7 +5700,7 @@
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/search.php": {
 		"ft": 8192,
@@ -5680,9 +5722,19 @@
 		},
 	"\/single.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/single.php",
 		"oF": 0
+		},
+	"\/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/style-min-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/style.css": {
 		"aP": 1,
@@ -5743,7 +5795,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 507365273,
-	"displayValue": "Semantique WP",
+	"displayValue": "Semantique WP Sandbox",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-wonka"
 	},
@@ -7079,7 +7131,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/carfree.loc",
+	"externalServerAddress": "http:\/\/wpsandbox.loc",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
