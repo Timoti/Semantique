@@ -1,6 +1,6 @@
 # Semantique
 
-Building on FoundationPress, this is Wordpress theme takes Foundation's semantic sensibilities further by incorporating the Susy Grid Framework for layout, to provide a broader range of grid optoins, such as margin AND padding based gutters, row-less layouts, gallery mixins and a vast range of contextually set options. 
+Building on FoundationPress by olefrederick, this is Wordpress theme takes Foundation's semantic sensibilities further by incorporating the Susy Grid Framework for layout, to provide a broader range of grid optoins, such as margin AND padding based gutters, row-less layouts, gallery mixins and a vast range of contextually set options. 
 
 
 Please fork, copy, modify, delete, share or do whatever you like with this.
