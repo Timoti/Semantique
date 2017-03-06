@@ -1,4 +1,4 @@
-<!-- Please only file bugs with FoundationPress on GitHub. If you've got an issue with the Foundation framework itself, please file the bug in the Foundation repository: https://github.com/zurb/foundation-sites. If you've got a more general question about how to use FoundationPress, please use the Gitter chatroom: https://gitter.im/olefredrik/FoundationPress -->
+<!-- Please only file bugs with Semantique on GitHub. If you've got an issue with the Foundation framework itself, please file the bug in the Foundation repository: https://github.com/zurb/foundation-sites. If you've got a more general question about how to use Semantique, contact tim@timgummerdesign.com or for 'foundational' templating issues you could try the Gitter chatroom: https://gitter.im/olefredrik/Foundationpress -->
 
 **How can this bug be reproduced?**
 

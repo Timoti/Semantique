@@ -1,10 +1,10 @@
 {
-  "name": "foundationpress",
-  "title": "FoundationPress",
-  "version": "2.6.2",
-  "description": "FoundationPress is a WordPress starter theme based on Foundation 6 by Zurb",
+  "name": "Semantique",
+  "title": "Semantique",
+  "version": "0.1.0",
+  "description": "Semantique is a WordPress starter theme based on Foundation 6 by Zurb and Foundationpress by ole Frederick",
   "keywords": [
-    "FoundationPress",
+    "Semantique",
     "WordPress",
     "starter theme",
     "Foundation",
@@ -13,13 +13,13 @@
     "customizable",
     "responsive"
   ],
-  "homepage": "http://foundationpress.olefredrik.com/",
-  "bugs": "https://github.com/olefredrik/FoundationPress/issues",
+  "homepage": "http://timgummerdesign.com",
+  "bugs": "https://github.com/timgummer/Semantique/issues",
   "license": "MIT",
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/olefredrik/FoundationPress.git"
+    "url": "https://github.com/timgummer/Semantique.git"
   },
   "devDependencies": {
     "autoprefixer": "^6.1.0",

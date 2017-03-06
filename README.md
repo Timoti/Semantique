@@ -1,6 +1,6 @@
 # Semantique
 
-Building on FoundationPress by olefrederick, this is Wordpress theme takes Foundation's semantic sensibilities further by incorporating the Susy Grid Framework for layout, to provide a broader range of grid optoins, such as margin AND padding based gutters, row-less layouts, gallery mixins and a vast range of contextually set options. 
+Building on Semantique by olefrederick, this is Wordpress theme takes Foundation's semantic sensibilities further by incorporating the Susy Grid Framework for layout, to provide a broader range of grid optoins, such as margin AND padding based gutters, row-less layouts, gallery mixins and a vast range of contextually set options. 
 
 
 Please fork, copy, modify, delete, share or do whatever you like with this.
@@ -13,7 +13,7 @@ Semantique uses [Sass](http://Sass-lang.com/) (CSS with superpowers). In short, 
 
 YOu can use your preferred compiler, node or GUI apps such as Codekit or Prepros
 
-If you have not worked with a Sass-based workflow before, I would recommend reading [FoundationPress for beginners](https://foundationpress.olefredrik.com/posts/tutorials/Semantique-for-beginners), a short blog post that explains what you need to know.
+If you have not worked with a Sass-based workflow before, I would recommend reading [Semantique for beginners](https://Semantique.olefredrik.com/posts/tutorials/Semantique-for-beginners), a short blog post that explains what you need to know.
 
 ## Quickstart
 
