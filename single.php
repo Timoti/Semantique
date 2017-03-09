@@ -8,11 +8,14 @@
 
 get_header(); ?>
 
-<div id="single-post" role="main">
+
+<h1>SINGLE POST</h1>
+<?php c2c_reveal_template(); ?>
+<div id="single-post" class="single-post role="main">
 
 <?php do_action( 'semantique_before_content' ); ?>
 <?php while ( have_posts() ) : the_post(); ?>
-	<article <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>">
+	<article class="post-<?php the_ID(); ?>" <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>">
 		<header>
 			<h1 class="entry-title"><?php the_title(); ?></h1>
 			<?php semantique_entry_meta(); ?>
@@ -30,7 +33,7 @@ get_header(); ?>
 		<?php edit_post_link( __( 'Edit', 'semantique' ), '<span class="edit-link">', '</span>' ); ?>
 		</div>
 		<footer>
-			<?php wp_link_pages( array('before' => '<nav id="page-nav"><p>' . __( 'Pages:', 'semantique' ), 'after' => '</p></nav>' ) ); ?>
+			<?php wp_link_pages( array('before' => '<nav class="page-nav"> id="page-nav"><p>' . __( 'Pages:', 'semantique' ), 'after' => '</p></nav>' ) ); ?>
 			<p><?php the_tags(); ?></p>
 		</footer>
 		<?php the_post_navigation(); ?>

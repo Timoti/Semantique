@@ -1,5 +1,5 @@
 @include breakpoint(small) {
-	#featured-hero {
+	.featured-hero {
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -14,7 +14,7 @@
 }
 
 @include breakpoint(medium) {
-	#featured-hero {
+	.featured-hero {
 		height: rem-calc(400);
 		}
 }

@@ -27,7 +27,7 @@
 
 	<?php do_action( 'semantique_layout_start' ); ?>
 
-	<header id="masthead" class="site-header" role="banner">
+	<header id="masthead" class="masthead site-header" role="banner">
 		<div class="title-bar" data-responsive-toggle="site-navigation">
 			<button class="menu-icon" type="button" data-toggle="mobile-menu"></button>
 			<div class="title-bar-title">
@@ -35,7 +35,8 @@
 			</div>
 		</div>
 
-		<nav id="site-navigation" class="main-navigation top-bar" role="navigation">
+		<nav id="site-navigation" class=" main-navigation top-bar" role="navigation">
+		<div class="container">
 			<div class="top-bar-left">
 				<ul class="menu">
 					<li class="home"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></li>
@@ -48,6 +49,7 @@
 					<?php get_template_part( 'template-parts/mobile-top-bar' ); ?>
 				<?php endif; ?>
 			</div>
+			</div> <!-- /container -->
 		</nav>
 	</header>
 

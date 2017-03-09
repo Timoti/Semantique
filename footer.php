@@ -11,11 +11,14 @@
 ?>
 
 		</section>
-		<div id="footer-container">
-			<footer id="footer">
+		<div id="footer-container" class="footer-container">
+			<footer id="footer" class="footer">
 				<?php do_action( 'semantique_before_footer' ); ?>
 				<?php dynamic_sidebar( 'footer-widgets' ); ?>
 				<?php do_action( 'semantique_after_footer' ); ?>
+
+				<?php c2c_reveal_template(); ?>
+				
 			</footer>
 		</div>
 

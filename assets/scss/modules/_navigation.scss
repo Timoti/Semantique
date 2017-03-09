@@ -1,80 +1,80 @@
 /* Navigation breakpoints */
 
 .desktop-menu, .top-bar-left {
-  @include show-for(medium);
-}
+	@include show-for(medium);
+	}
 
 #mobile-menu, .title-bar {
-  @include hide-for(medium);
-}
+	@include hide-for(medium);
+	}
 
 /* Mobile menu */
 
 .off-canvas {
  > ul.menu {
-    height: 100vh;
-    padding: 1rem;
-  }
-}
+		height: 100vh;
+		padding: 1rem;
+		}
+	}
 
 .title-bar-title {
-  a {
-    font-size: 1rem;
-    color: #B9B9B9;
-  }
-}
+	a {
+		font-size: 1rem;
+		color: #B9B9B9;
+		}
+	}
 
 /* Tablet and desktop menu */
 .top-bar {
 
-  .menu .home a {
-    font-size: 1rem;
-    color: #B9B9B9;
-  }
+	.menu .home a {
+		font-size: 1rem;
+		color: #B9B9B9;
+		}
 
-  .menu a {
-    height: 45px;
-    line-height: 45px;
-    color: #e6e6e6;
-    padding-top: 0;
-    padding-bottom: 0;
-    font-weight: bold;
-    font-size: 0.8rem;
-    line-height: 1;
+	.menu a {
+		height: 45px;
+		line-height: 45px;
+		color: #e6e6e6;
+		padding-top: 0;
+		padding-bottom: 0;
+		font-weight: bold;
+		font-size: 0.8rem;
+		line-height: 1;
 
-    &:hover:not(.button) {
-      background-color: #2a2a2a;
-    }
-  }
+		&:hover:not(.button) {
+			background-color: #2a2a2a;
+			}
+		}
 
-  .menu>li:not(.menu-text)>a { padding: 1rem; }
-  .menu li:not(:last-child) { border-right: 1px solid #4e4e4e; }
+	.menu>li:not(.menu-text)>a { padding: 1rem;   }
+	.menu li:not(:last-child) { border-right: 1px solid #4e4e4e;  }
 
-  .dropdown.menu .submenu {
-    background-color: #121212;
-    color: #e6e6e6;
-    border: 0;
-  }
+	.dropdown.menu .submenu {
+		background-color: #121212;
+		color: #e6e6e6;
+		border: 0;
+		}
 
-  .dropdown.menu .has-submenu.is-down-arrow a { padding-right: 1rem; }
-  .dropdown.menu .has-submenu.is-down-arrow > a::after { border: 0; }
+	.dropdown.menu .has-submenu.is-down-arrow a { padding-right: 1rem;  }
+	.dropdown.menu .has-submenu.is-down-arrow > a::after { border: 0;   }
 
-  .dropdown.menu:first-child >
-    li.is-dropdown-submenu-parent >
-    a::after {
-      display: none;
-    }
+	.dropdown.menu:first-child >
+		li.is-dropdown-submenu-parent >
+		a::after {
+			display: none;
+				}
 
-}
+	}
 /* Basic styles for post navigation. Nicolas Gallagher's "Micro clearfix" https://css-tricks.com/snippets/css/clear-fix/ */
 .post-navigation:before,
 .post-navigation:after {
 	content: "";
-    	display: table;
-}
+			display: table;
+	}
 .post-navigation:after {
 	clear:both;
-}
+	}
 /* Text meant only for screen readers. Addresses part of theme-check issue #840. https://github.com/Automattic/_s/blob/master/style.css */
 .screen-reader-text {
 	clip: rect(1px, 1px, 1px, 1px);
@@ -82,7 +82,7 @@
 	height: 1px;
 	width: 1px;
 	overflow: hidden;
-}
+	}
 
 .screen-reader-text:focus {
 	background-color: #f1f1f1;
@@ -102,10 +102,10 @@
 	top: 5px;
 	width: auto;
 	z-index: 100000; /* Above WP toolbar. */
-}
+	}
 .nav-previous {
 	float:left;
-}
+	}
 .nav-next {
 	float:right;
-}
+	}

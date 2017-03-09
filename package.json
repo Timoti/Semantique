@@ -14,12 +14,12 @@
     "responsive"
   ],
   "homepage": "http://timgummerdesign.com",
-  "bugs": "https://github.com/timgummer/Semantique/issues",
+  "bugs": "https://github.com/Timoti/Semantique/issues",
   "license": "MIT",
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/timgummer/Semantique.git"
+    "url": "https://github.com/Timoti/Semantique.git"
   },
   "devDependencies": {
     "autoprefixer": "^6.1.0",

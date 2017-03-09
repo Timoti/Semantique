@@ -14,7 +14,7 @@ get_header(); ?>
 	<?php do_action( 'semantique_before_content' ); ?>
 
 	<?php while ( woocommerce_content() ) : the_post(); ?>
-		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
+		<article class="post-<?php the_ID(); ?>" <?php post_class() ?> id="post-<?php the_ID(); ?>">
 			<header>
 				<h1 class="entry-title"><?php the_title(); ?></h1>
 			</header>
@@ -23,7 +23,7 @@ get_header(); ?>
 				<?php the_content(); ?>
 			</div>
 			<footer>
-				<?php wp_link_pages( array('before' => '<nav id="page-nav"><p>' . __( 'Pages:', 'semantique' ), 'after' => '</p></nav>' ) ); ?>
+				<?php wp_link_pages( array('before' => '<nav class="page-nav" id="page-nav"><p>' . __( 'Pages:', 'semantique' ), 'after' => '</p></nav>' ) ); ?>
 				<p><?php the_tags(); ?></p>
 			</footer>
 			<?php do_action( 'semantique_page_before_comments' ); ?>

@@ -49,3 +49,14 @@ require_once( 'library/responsive-images.php' );
 
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
 // require_once( 'library/protocol-relative-theme-assets.php' );
+
+
+/** Default Image Plugin for dedicated post-type image  */
+// function dfi_posttype_book ( $dfi_id, $post_id ) {
+// 	$post = get_post($post_id);
+// 	if ( 'wiki' === $post->post_type ) {
+// 		return 31; // the image id
+// 	}
+// 	return $dfi_id; // the original featured image id
+// }
+// add_filter( 'dfi_thumbnail_id', 'dfi_posttype_book', 10, 2 );

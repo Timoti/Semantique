@@ -30,7 +30,7 @@ get_header(); ?>
 
 	<?php if ( function_exists( 'semantique_pagination' ) ) { semantique_pagination(); } else if ( is_paged() ) { ?>
 
-		<nav id="post-nav">
+		<nav class="post-nav" id="post-nav">
 			<div class="post-previous"><?php next_posts_link( __( '&larr; Older posts', 'semantique' ) ); ?></div>
 			<div class="post-next"><?php previous_posts_link( __( 'Newer posts &rarr;', 'semantique' ) ); ?></div>
 		</nav>

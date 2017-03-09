@@ -1,5 +1,5 @@
-#page-sidebar-left {
-  @include grid-row();
+.page-sidebar-left {
+  //@include grid-row();
   margin-top: 3rem;
 
   .main-content {
@@ -9,7 +9,7 @@
 
     @include breakpoint(medium) {
       @include span(8);
-      @include grid-col-pos(4);
+      @include grid-col-pos(4); //TODO gridfix
     }
   }
 
@@ -20,7 +20,7 @@
 
     @include breakpoint(medium) {
       @include span(4);
-      @include grid-col-pos(-8);
+      @include grid-col-pos(-8); //TODO gridfix
       margin-top: 1rem;
     }
   }

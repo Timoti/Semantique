@@ -10,7 +10,7 @@
 
 ?>
 
-<div id="post-<?php the_ID(); ?>" <?php post_class('blogpost-entry'); ?>>
+<div class="post-<?php the_ID(); ?>" id="post-<?php the_ID(); ?>" <?php post_class('blogpost-entry'); ?>>
 	<header>
 		<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 		<?php semantique_entry_meta(); ?>

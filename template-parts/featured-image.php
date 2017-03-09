@@ -5,6 +5,6 @@
 		$image = $image[0];
 		?>
 
-	<header id="featured-hero" role="banner" style="background-image: url('<?php echo $image ?>')">
+	<header class="featured-hero" id="featured-hero" role="banner" style="background-image: url('<?php echo $image ?>')">
 	</header>
 	<?php endif;

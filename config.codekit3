@@ -21,6 +21,12 @@
 		"oAP": "\/.bowerrc",
 		"oF": 0
 		},
+	"\/.github\/ISSUE_TEMPLATE.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.github\/ISSUE_TEMPLATE.html",
+		"oF": 0
+		},
 	"\/.github\/ISSUE_TEMPLATE.md": {
 		"cS": 0,
 		"eF": 1,
@@ -134,6 +140,36 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/assets\/images\/demo\/hero-bg-foundation-6-small.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/demo\/hero-bg-semantic-lg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/demo\/hero-bg-semantic-lg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/demo\/hero-bg-semantique-lg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/demo\/hero-bg-semantique-lg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/demo\/hero-bg-semantique-sm.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/demo\/hero-bg-semantique-sm.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -973,6 +1009,19 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "\/assets\/stylesheets\/foundation.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/general\/_hacks.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/stylesheets\/general\/_hacks.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -5237,6 +5286,12 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/CHANGELOG.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/CHANGELOG.html",
+		"oF": 0
+		},
 	"\/CHANGELOG.md": {
 		"cS": 0,
 		"eF": 1,
@@ -5646,6 +5701,12 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/page-templates\/front.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-templates\/front.php",
+		"oF": 0
+		},
 	"\/page-templates\/kitchen-sink.php": {
 		"ft": 8192,
 		"oA": 0,
@@ -5662,12 +5723,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-templates\/page-sidebar-left.php",
-		"oF": 0
-		},
-	"\/page-templates\/~front~not.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/page-templates\/~front~not.php",
 		"oF": 0
 		},
 	"\/page.php": {
@@ -5700,12 +5755,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/screenshot-shot.afdesign": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/screenshot-shot.afdesign",
-		"oF": 0
-		},
 	"\/screenshot.png": {
 		"ft": 32768,
 		"iS": 22735,
@@ -5736,6 +5785,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/single.php",
+		"oF": 0
+		},
+	"\/snippets-static.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/snippets-static.php",
 		"oF": 0
 		},
 	"\/style-min.css": {
@@ -5807,7 +5862,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 507365273,
-	"displayValue": "Semantique WP Sandbox",
+	"displayValue": "Semantique Weave",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-wonka"
 	},
@@ -7155,7 +7210,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/wpsandbox.loc",
+	"externalServerAddress": "http:\/\/weave.loc",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

@@ -8,6 +8,6 @@
 
 ?>
 
-<nav class="vertical menu" id="mobile-menu" role="navigation">
+<nav class="mobile-menu vertical menu" id="mobile-menu" role="navigation">
   <?php semantique_mobile_nav(); ?>
 </nav>

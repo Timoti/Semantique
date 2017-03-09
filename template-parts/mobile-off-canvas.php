@@ -8,7 +8,7 @@
 
 ?>
 
-<nav class="off-canvas position-left" id="mobile-menu" data-off-canvas data-position="left" role="navigation">
+<nav class="mobile-menu off-canvas position-left" id="mobile-menu" data-off-canvas data-position="left" role="navigation">
   <?php semantique_mobile_nav(); ?>
 </nav>
 
