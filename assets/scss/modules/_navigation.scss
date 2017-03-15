@@ -1,10 +1,12 @@
 /* Navigation breakpoints */
 
-.desktop-menu, .top-bar-left {
+.desktop-menu, 
+.top-bar-left {
 	@include show-for(medium);
 	}
 
-#mobile-menu, .title-bar {
+#mobile-menu, 
+.title-bar {
 	@include hide-for(medium);
 	}
 

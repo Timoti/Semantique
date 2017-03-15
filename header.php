@@ -53,5 +53,7 @@
 		</nav>
 	</header>
 
-	<section class="container">
+
+<!-- SEMANTIQUE Theme -->
+
 		<?php do_action( 'semantique_after_header' );

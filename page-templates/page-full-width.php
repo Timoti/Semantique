@@ -10,7 +10,7 @@ get_header(); ?>
 
 <?php do_action( 'semantique_before_content' ); ?>
 <?php while ( have_posts() ) : the_post(); ?>
-  <article class="post-<?php the_ID(); ?>" <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>" > <!-- TODO CHECK -->
+  <article class="post-<?php the_ID(); ?>" <?php post_class('content-main') ?> id="post-<?php the_ID(); ?>" > <!-- TODO CHECK -->
       <header>
           <h1 class="entry-title"><?php the_title(); ?></h1>
       </header>

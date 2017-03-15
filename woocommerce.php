@@ -9,7 +9,7 @@
 get_header(); ?>
 
 <div class="row">
-	<div class="small-12 large-8 columns" role="main">
+	<div class="small-12 large-8 columns mainthing" role="main">
 
 	<?php do_action( 'semantique_before_content' ); ?>
 
@@ -34,7 +34,7 @@ get_header(); ?>
 
 	<?php do_action( 'semantique_after_content' ); ?>
 
-	</div>
+	</div> <!-- /mainthing -->
 	<?php get_sidebar(); ?>
-</div>
+</div><!-- /row-->
 <?php get_footer();

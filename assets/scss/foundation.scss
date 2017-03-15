@@ -90,12 +90,10 @@
 @import "components/links";
 
 // Templates
-@import "templates/front";
-@import "templates/kitchen-sink";
-@import "templates/page-default";
-@import "templates/page-sidebar-left";
-@import "templates/page-full-width";
-@import "templates/single-post";
+@import "layout/front";
+@import "layout/kitchen-sink";
+@import "layout/page";
+
 
 @import "general/hacks";
 

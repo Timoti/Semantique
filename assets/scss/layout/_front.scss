@@ -3,11 +3,11 @@
 $col-theme-1: #B4C9D1;
 
 // Page header
-.front-hero {
+.hero {
 	.marketing {
 		//@include grid-row();
 		max-width: 55rem;
-	}
+		}
 
 	@include breakpoint(small) {
 		background: url('../images/demo/hero-bg-semantic-lg.svg') bottom center;
@@ -18,7 +18,7 @@ $col-theme-1: #B4C9D1;
 		height: auto;
 		position: relative;
 		text-align: left;
-	}
+		}
 
 	@include breakpoint(medium) {
 		background: url('../images/demo/hero-bg-semantic-lg.svg') bottom center;
@@ -26,34 +26,38 @@ $col-theme-1: #B4C9D1;
 		background-position: center;
 		height: rem-calc(685);
 		margin: 0 0 rem-calc(72);
-	}
+		}
 
 .watch {
 
 		@include breakpoint(small) {
-			@include span(7);
-			@include pull(5);
-		}
+			// temp hacks
+			width: auto;
+			margin: auto 25%;
+			text-align: center;
+			//@include span(7);
+			//@include pull(5);
+			}
 
 		@include breakpoint(medium) {
-			@include span(isolate at 12);
+			//@include span(isolate at 12);
 		//	@include span-position(0);
-		}
+			}
 
 		section {
 			display: inline;
-		}
+			}
 
 		a {
 			color: $col-theme-1;
 			cursor: pointer;
 			font-weight: 400;
 			margin-right: rem-calc(20);
-		}
+			}
 
 		a:hover {
 			color: #fff;
-		}
+			}
 
 		.stargazers {
 			:before {
@@ -64,8 +68,8 @@ $col-theme-1: #B4C9D1;
 				text-decoration: inherit;
 				color: $col-theme-1;
 				margin-right: rem-calc(8);
+				}
 			}
-		}
 
 		.twitter {
 			:before {
@@ -76,23 +80,23 @@ $col-theme-1: #B4C9D1;
 				text-decoration: inherit;
 				color: $col-theme-1;
 				margin-right: rem-calc(8);
+				}
 			}
-		}
 
-	}
+		}
 
 	.tagline {
 
 		@include breakpoint(small) {
 			@include span(8);
-		}
+			}
 
 		@include breakpoint(medium) {
 			@include span(5);
 			padding-top: 6rem;
-		}
+			}
 
-	}
+		}
 
 	h1 {
 		color: $white;
@@ -100,23 +104,23 @@ $col-theme-1: #B4C9D1;
 
 		@include breakpoint(small) {
 			font-size: 2.2rem;
-		}
+			}
 
 		@include breakpoint(medium) {
 			font-size: 2.875rem;
-		}
+			}
 
-	}
+		}
 
 	h4 {
 		color: $white;
 		font-weight: 300;
 		font-size: 1.3125rem;
+		}
+
+	.download { margin-top: rem-calc(20); 	}
+
 	}
-
-	.download { margin-top: rem-calc(20); }
-
-}
 
 // Intro
 .intro {
@@ -126,7 +130,7 @@ $col-theme-1: #B4C9D1;
 
 		@include breakpoint(small) {
 			@include span(12);
-		}
+			}
 
 		@include breakpoint(medium) {
 			@include span(10);
@@ -135,18 +139,18 @@ $col-theme-1: #B4C9D1;
 			h2 {
 				font-weight: 300;
 				margin-bottom: 1.5rem;
-			}
+				}
 
 			h4 {
 				font-size: 1.125rem;
 				line-height: 1.6;
 				color: $medium-gray;
 				margin-bottom: 2rem;
-			}
+				}
 
+			}
 		}
 	}
-}
 
 // Section divider
 .section-divider {
@@ -156,8 +160,8 @@ $col-theme-1: #B4C9D1;
 		@include span(12);
 		@extend .dotted;
 		box-sizing: border-box;
+		}
 	}
-}
 
 
 // Benefits
@@ -170,14 +174,14 @@ $col-theme-1: #B4C9D1;
 
 		h2 {
 			font-weight: 300;
-		}
+			}
 
 		h4 {
 			font-size: 1.125rem;
 			line-height: 1.6;
 			color: $medium-gray;
+			}
 		}
-	}
 
 	.semantic,
 	.responsive,
@@ -185,31 +189,31 @@ $col-theme-1: #B4C9D1;
 	.professional {
 		@include breakpoint(small) {
 			@include span(12);
-		}
+			}
 
 		@include breakpoint(medium) {
 			@include span(3);
-		}
+			}
 
 		img {
 			padding: 1.25rem;
     	margin: 1rem auto 0 auto;
-		}
+			}
 
 		h3 {
 			color: $black;
 			font-weight: 300;
 			font-size: 1.75rem;
+			}
+
+		p { font-size: 0.9375rem; 	}
+
 		}
-
-		p { font-size: 0.9375rem; }
-
-	}
 
 	.why-foundation {
 		//@include grid-row();
 		@include span(12);
 		margin-top: 4rem;
-	}
+		}
 
-}
+	}

@@ -5,8 +5,11 @@
 	background-color: lightYellow;
 	}
 
+.tpl-name {
+	color: lightGray;
+}
 // temporary spacing for hero
-.front-hero .marketing .tagline {
+.hero .marketing .tagline {
 	padding: $global-padding*4;
 			margin: auto;
 			float:none;

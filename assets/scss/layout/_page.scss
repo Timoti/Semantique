@@ -1,0 +1,87 @@
+
+// .page,
+.container {
+	@include container(50rem)
+		}
+
+.page.core {
+	//@include grid-row();
+	margin-top: 3rem;
+
+	.content-main {
+		@include breakpoint(small) {
+			@include span(12);
+			}
+
+		@include breakpoint(medium) {
+			@include span(8);
+			}
+		}
+
+	}
+
+
+// PAGE-SIDEBAR-LEFT
+
+.page-sidebar-left {
+	//@include grid-row();
+	margin-top: 3rem;
+
+	.content-main,
+	> article {
+		@include breakpoint(small) {
+			@include span(12 of 12);
+		}
+
+		@include breakpoint(medium) {
+			@include span(last 8 of 12);
+			@include push(4); //TODO gridfix
+		}
+	}
+
+	.sidebar {
+		@include breakpoint(small) {
+			@include span(12 of 12);
+		}
+
+		@include breakpoint(medium) {
+			@include span(isolate 4 at 0 of 12);
+			//@include pull(3 of 12); //TODO gridfix
+			//margin-top: 1rem;
+		}
+	}
+}
+
+
+// PAGE-FULL-WIDTH
+
+.page-full-width {
+	//@include grid-row();
+	margin-top: 3rem;
+
+	.content-main {
+		@include breakpoint(small) {
+			@include span(12);
+			}
+
+		}
+
+	}
+
+// SINGLE-POST
+
+.single-post {
+	//@include grid-row();
+	margin-top: 3rem;
+
+	.content-main {
+		@include breakpoint(small) {
+			@include span(12);
+			}
+
+		@include breakpoint(medium) {
+			@include span(8);
+			}
+		}
+
+	}

@@ -11,42 +11,26 @@
  */
 
  get_header(); ?>
-<!-- 		<h3> Semantique Theme</h3>  -->
+
  <?php get_template_part( 'template-parts/featured-image' ); ?>
-<h1>PAGE</h1>
+
+
+<h1 class="tpl-name container">PAGE <?php c2c_reveal_template(); ?></h1>
  <div id="page" class="page" role="main">
-<!-- Test The theme changes -->
+
+ <div class="container">
+
  <?php do_action( 'semantique_before_content' ); ?>
+
  <?php while ( have_posts() ) : the_post(); ?>
+
 	 <article class="post-<?php the_ID(); ?> <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>">
-			 <header>
-					 <h1 class="entry-title"><?php the_title(); ?></h1>
-			 </header>
+
+			 <h1 class="entry-title"><?php the_title(); ?></h1>
+
 			 <?php do_action( 'semantique_page_before_entry_content' ); ?>
 
-<?php c2c_reveal_template(); ?>
 
-	<?php if ( is_front_page() ) { ?>
-		<!-- This is the blog posts index -->
-		<!--  This is the Front Page< -->
-
-
-<?php if ( is_active_sidebar( 'frontpage-callouts-area' ) ) : ?>
-    <div class="frontpage-callouts-area-div">
-        <?php dynamic_sidebar( 'frontpage-callouts-area' ); ?>
-    </div><!-- frontpage-callouts-area -->
-
-<?php endif; ?>
-
-
-
-	<?php } else { ?>
-
-	<!--  This is NOT the Front Page  -->
-
- <?php 
-}
-?>
 			 <div class="entry-content">
 					 <?php the_content(); ?>
 					 <?php edit_post_link( __( 'Edit', 'semantique' ), '<span class="edit-link">', '</span>' ); ?>
@@ -63,8 +47,8 @@
  <?php endwhile;?>
 
  <?php do_action( 'semantique_after_content' ); ?>
- <?php get_sidebar(); ?>
+ 
 
- </div>
+	</div><!-- /container -->
 
  <?php get_footer();

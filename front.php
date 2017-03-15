@@ -5,11 +5,12 @@ Template Name: Front
 get_header(); ?>
 <!-- Test The theme changes -->
 
- <div class="container">
-<h1 class="tpl-name">FRONT TPL</h1>
-<?php c2c_reveal_template(); ?>
-	</div>
+
+<h1 class="tpl-name container">FRONT TPL <?php c2c_reveal_template(); ?></h1>
+
+
 <div id="hero" class="hero" role="banner">
+ <div class="container">
 	<div class="marketing">
 		<div class="tagline">
 			<h1><?php bloginfo( 'name' ); ?></h1>
@@ -26,31 +27,21 @@ get_header(); ?>
 			</section>
 		</div>
 	</div>
-
+	</div><!-- /container -->
 </div> <!-- /hero -->
 
 <?php do_action( 'semantique_before_content' ); ?>
-<?php while ( have_posts() ) : the_post(); ?>
-<section class="intro" role="main">
-	<div class="fp-intro">
 
-		<div <?php post_class() ?> id="post-<?php the_ID(); ?>" class="post-<?php the_ID(); ?>">
-			<?php do_action( 'semantique_page_before_entry_content' ); ?>
-			<div class="entry-content">
-			<!-- 	<?php the_content(); ?> -->
-			</div>
-			<footer>
-				<?php wp_link_pages( array('before' => '<nav id="page-nav" class="page-nav"><p>' . __( 'Pages:', 'semantique' ), 'after' => '</p></nav>' ) ); ?>
-				<p><?php the_tags(); ?></p>
-			</footer>
-			<?php do_action( 'semantique_page_before_comments' ); ?>
-			<?php comments_template(); ?>
-			<?php do_action( 'semantique_page_after_comments' ); ?>
-		</div> <!-- /fp-intro -->
 
-	</div>
+<!-- calling out for callouts!  -->
+<?php if ( is_active_sidebar( 'frontpage-callouts-area' ) ) : ?>
+    <div class="frontpage-callouts-area-div">
+        <?php dynamic_sidebar( 'frontpage-callouts-area' ); ?>
+    </div><!-- frontpage-callouts-area -->
 
-</section><!-- /intro -->
+<?php endif; ?>
+
+
 
 <?php endwhile;?>
 <?php do_action( 'semantique_after_content' ); ?>

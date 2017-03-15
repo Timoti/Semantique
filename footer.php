@@ -10,17 +10,17 @@
 
 ?>
 
-		</section>
-		<div id="footer-container" class="footer-container">
-			<footer id="footer" class="footer">
+
+		<footer id="footer-container" class="l-footer">
+			<div id="footer" class="footer-content container">
 				<?php do_action( 'semantique_before_footer' ); ?>
 				<?php dynamic_sidebar( 'footer-widgets' ); ?>
 				<?php do_action( 'semantique_after_footer' ); ?>
 
 				<?php c2c_reveal_template(); ?>
 				
-			</footer>
-		</div>
+			</div>
+		</footer>
 
 		<?php do_action( 'semantique_layout_end' ); ?>
 

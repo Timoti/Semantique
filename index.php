@@ -15,11 +15,14 @@
 
 get_header(); ?>
 
-<div id="page" class="page" role="main">
+<div id="page" class="page core" role="main">
 
 <?php c2c_reveal_template(); ?>
-<h1>INDEX</h1>
+<h1 class="tpl-name container">INDEX  <?php c2c_reveal_template(); ?></h1>
+
+ <div class="container">
 	<article class="main-content">
+
 	<?php if ( have_posts() ) : ?>
 
 		<?php /* Start the Loop */ ?>
@@ -43,6 +46,6 @@ get_header(); ?>
 	</article>
 	<?php get_sidebar(); ?>
 
-</div>
+	</div><!-- /container -->
 
 <?php get_footer();
