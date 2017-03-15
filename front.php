@@ -6,7 +6,7 @@ get_header(); ?>
 <!-- Test The theme changes -->
 
 
-<h1 class="tpl-name container">FRONT TPL <?php c2c_reveal_template(); ?></h1>
+<h1 class="tpl-name container">FRONTR TPL <?php c2c_reveal_template(); ?></h1>
 
 
 <div id="hero" class="hero" role="banner">

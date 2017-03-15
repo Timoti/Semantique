@@ -217,3 +217,20 @@ $col-theme-1: #B4C9D1;
 		}
 
 	}
+
+@include breakpoint(large) {
+
+	.frontpage-callouts-area {
+		@include container(12);
+	  display: flex;
+		.widget{
+			//background-color:lightyellow;
+		  margin-right: gutter();
+		  &:last-child {
+		  	margin-right: 0;
+
+		 	 }
+			}
+		}
+}
+
