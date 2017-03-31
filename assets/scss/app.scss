@@ -8,19 +8,19 @@
 */
 
 //  Settings
-@import "global/settings"; // Foundation settings file.
+@import "settings"; // Foundation settings file.
 
 // Foundation mixins & browser resets
 @import '../../bower_components/foundation-sites/scss/foundation';
 @import '../../bower_components/susy';
 
 // WP overrides
-@import "global/wp-admin"; // Fix issues with wp-admin bar positioning
-@import "global/wp-overrides"; // Override the default WordPress styling for some elements
+@import "wp/wp-admin"; // Fix issues with wp-admin bar positioning
+@import "wp/wp-overrides"; // Override the default WordPress styling for some elements
 
 // Third-party libraries
 //@import 'font-awesome';
-//@import 'motion-ui';
+//@import 'motion-ui';base
 
 // Foundation global styles
 @include foundation-global-styles;
@@ -72,32 +72,29 @@
 // @include motion-ui-transitions;
 // @include motion-ui-animations;
 
-/*
-  My custom styles:
-  Add your scss files below to structure your project styles
-*/
 
-// Modules
-@import "modules/navigation";
-@import "modules/footer";
-@import "modules/sidebar";
-@import "modules/editor-style";
+// CUSTOM STYLES
 
 // Components
-@import "components/buttons";
-@import "components/featured-image";
-@import "components/dividers";
-@import "components/links";
+@import "components/navigation";
+@import "components/footer";
+@import "components/sidebar";
+@import "components/editor-style";
+
+// Base
+@import "base/buttons";
+@import "base/featured-image";
+@import "base/dividers";
+@import "base/links";
+
 
 // Templates
 @import "layout/front";
 @import "layout/kitchen-sink";
 @import "layout/page";
 
-
+@import "general/style";
 @import "general/hacks";
 
 
-body .post {
-	color: green;
-	}
+

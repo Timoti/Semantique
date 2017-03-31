@@ -956,7 +956,7 @@
 		"oAP": "\/assets\/scss\/.sass-cache\/f59eea544b281361ae9f5d3992f7e13eec18e837\/_zoom.scssc",
 		"oF": 0
 		},
-	"\/assets\/scss\/components\/_buttons.scss": {
+	"\/assets\/scss\/_settings-tg.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -964,12 +964,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/components\/_buttons.css",
+		"oAP": "\/assets\/stylesheets\/_settings-tg.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/scss\/components\/_dividers.scss": {
+	"\/assets\/scss\/_settings.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -977,38 +977,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/components\/_dividers.css",
+		"oAP": "\/assets\/stylesheets\/_settings.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/scss\/components\/_featured-image.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/components\/_featured-image.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/scss\/components\/_links.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/components\/_links.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/scss\/foundation.scss": {
+	"\/assets\/scss\/app.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1016,7 +990,111 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/assets\/stylesheets\/foundation.css",
+		"oAP": "\/assets\/stylesheets\/app.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/base\/_buttons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/stylesheets\/base\/_buttons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/base\/_dividers.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/stylesheets\/base\/_dividers.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/base\/_featured-image.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/stylesheets\/base\/_featured-image.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/base\/_links.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/stylesheets\/base\/_links.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/components\/_editor-style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/stylesheets\/components\/_editor-style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/components\/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/stylesheets\/components\/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/components\/_navigation.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/stylesheets\/components\/_navigation.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/components\/_sidebar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/stylesheets\/components\/_sidebar.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1034,7 +1112,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/scss\/global\/_settings-tg.scss": {
+	"\/assets\/scss\/general\/_style.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1042,46 +1120,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/global\/_settings-tg.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/scss\/global\/_settings.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/global\/_settings.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/scss\/global\/_wp-admin.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/global\/_wp-admin.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/scss\/global\/_wp-overrides.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/global\/_wp-overrides.css",
+		"oAP": "\/assets\/stylesheets\/general\/_style.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1125,7 +1164,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/scss\/modules\/_editor-style.scss": {
+	"\/assets\/scss\/wp\/_wp-admin.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1133,12 +1172,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/modules\/_editor-style.css",
+		"oAP": "\/assets\/stylesheets\/wp\/_wp-admin.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/scss\/modules\/_footer.scss": {
+	"\/assets\/scss\/wp\/_wp-overrides.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1146,51 +1185,25 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/modules\/_footer.css",
+		"oAP": "\/assets\/stylesheets\/wp\/_wp-overrides.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/scss\/modules\/_navigation.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/modules\/_navigation.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/scss\/modules\/_sidebar.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/modules\/_sidebar.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/stylesheets\/foundation.css": {
+	"\/assets\/stylesheets\/app.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/foundation-min.css",
+		"oA": 0,
+		"oAP": "\/assets\/stylesheets\/app-min.css",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/assets\/stylesheets\/foundation.css.map": {
+	"\/assets\/stylesheets\/app.css.map": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/stylesheets\/foundation.css.map",
+		"oAP": "\/assets\/stylesheets\/app.css.map",
 		"oF": 0
 		},
 	"\/bower.json": {
