@@ -77,24 +77,25 @@
 
 // CUSTOM STYLES
 
+// Base
+@import "base/abstractions";
+@import "base/buttons";
+@import "base/featured-image";
+@import "base/dividers";
+@import "base/links";
+
 // Components
 @import "components/navigation";
 @import "components/footer";
 @import "components/sidebar";
 @import "components/card-gallery";
 
-// Base
-@import "base/buttons";
-@import "base/featured-image";
-@import "base/dividers";
-@import "base/links";
-
-
-// Templates
+//Layout Templates
 @import "layout/front";
 @import "layout/kitchen-sink";
 @import "layout/page";
 
+//Purely Aesthetic
 @import "general/style";
 @import "general/hacks";
 

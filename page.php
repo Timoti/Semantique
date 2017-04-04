@@ -15,11 +15,11 @@
  <?php get_template_part( 'template-parts/featured-image' ); ?>
 
 
-<h1 class="tpl-name container">PAGE <?php c2c_reveal_template(); ?></h1>
- <div id="page" class="page" role="main">
 
- <div class="container">
+<div id="page" class="page" role="main">
+<div class="container">
 
+<h1 class="tpl-name">PAGE <?php c2c_reveal_template(); ?></h1>
  <?php do_action( 'semantique_before_content' ); ?>
 
  <?php while ( have_posts() ) : the_post(); ?>
@@ -40,15 +40,17 @@
 					 <?php wp_link_pages( array('before' => '<nav id="page-nav" class="page-nav"><p>' . __( 'Pages:', 'semantique' ), 'after' => '</p></nav>' ) ); ?>
 					 <p><?php the_tags(); ?></p>
 			 </footer>
+
 			 <?php do_action( 'semantique_page_before_comments' ); ?>
 			 <?php comments_template(); ?>
 			 <?php do_action( 'semantique_page_after_comments' ); ?>
+
 	 </article>
+	 
  <?php endwhile;?>
 
  <?php do_action( 'semantique_after_content' ); ?>
  
-
-	</div><!-- /container -->
+</div><!-- /container -->
 
  <?php get_footer();

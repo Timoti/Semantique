@@ -4,14 +4,12 @@ Template Name: Left Sidebar
 */
 get_header(); ?>
 
-<?php c2c_reveal_template(); ?>
-<?php get_template_part( 'template-parts/featured-image' ); ?>
 
 <div id="page-sidebar-left" class="page-sidebar-left page" role="main">
-1
+
  <div class="container">
 
-<h1 class="tpl-name container">LEFT SIDEBAR <?php c2c_reveal_template(); ?></h1> 
+<h1 class="tpl-name">LEFT SIDEBAR <?php c2c_reveal_template(); ?></h1> 
 
 <?php do_action( 'semantique_before_content' ); ?>
 

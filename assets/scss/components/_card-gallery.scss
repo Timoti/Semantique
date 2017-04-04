@@ -6,11 +6,7 @@
 $trans-grid-obj: 0.5s;
 $grid-box-inset: 0.5rem;
 
-// move this somewhere handy to all
-@mixin fullyfluid {
-	width: 100%;
-	height: auto;
-	} 
+
 
 
 @-moz-keyframes 'blink' {
@@ -79,7 +75,7 @@ $pad-grid-obj: 4px;
 		@include fullyfluid;
 		}
 
-} // - tab
+} // - BP small
 
 
 @include breakpoint(largish) {
@@ -89,7 +85,7 @@ $pad-grid-obj: 4px;
 		@include fullyfluid;
 		}
 
-} // -desk-sm
+} // -BP largish
 
  }  // - .query-row
 
@@ -98,6 +94,7 @@ $pad-grid-obj: 4px;
 //re-space headings
 
 // set actual page ID here…
+.page-id-109,
 .card-gallery {
 
 .view-header {
@@ -128,7 +125,7 @@ h1 {
 
 }
 
-} // - /page-work
+} // - /card-gallery
 
 
 
@@ -150,10 +147,10 @@ $col-g-stop-4: rgba(0,0,0,0.45);
 	z-index: 1;
 	border-bottom: dotted $col-brand-1 1px;
 
-	// tgd span heads
+	// span heads (ex tgd)
 	h2:not(.block__title),
 	h3:not(.block__title) {
-		margin-top: 0.5rem;;
+		margin-top: 0.5rem;
 		}
 
 	// hide temporary static pos heading
@@ -314,6 +311,8 @@ $col-g-stop-4: rgba(0,0,0,0.45);
 .view-work-pages .view-content {
 	@include clearfix;
 	}
+
+
 
 
 // @-webkit-keyframes 'blink' {

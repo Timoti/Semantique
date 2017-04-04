@@ -1052,7 +1052,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/_settings-tg.css",
+		"oAP": "\/assets\/css\/_settings-tg.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1065,7 +1065,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/_settings.css",
+		"oAP": "\/assets\/css\/_settings.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1078,7 +1078,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/assets\/stylesheets\/app.css",
+		"oAP": "\/assets\/css\/app.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1091,7 +1091,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/base\/_abstractions.css",
+		"oAP": "\/assets\/css\/base\/_abstractions.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1104,7 +1104,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/base\/_buttons.css",
+		"oAP": "\/assets\/css\/base\/_buttons.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1117,7 +1117,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/base\/_dividers.css",
+		"oAP": "\/assets\/css\/base\/_dividers.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1130,7 +1130,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/base\/_featured-image.css",
+		"oAP": "\/assets\/css\/base\/_featured-image.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1143,7 +1143,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/base\/_links.css",
+		"oAP": "\/assets\/css\/base\/_links.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1156,7 +1156,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/components\/_card-gallery.css",
+		"oAP": "\/assets\/css\/components\/_card-gallery.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1169,7 +1169,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/components\/_footer.css",
+		"oAP": "\/assets\/css\/components\/_footer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1182,7 +1182,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/components\/_header.css",
+		"oAP": "\/assets\/css\/components\/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1195,7 +1195,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/components\/_navigation.css",
+		"oAP": "\/assets\/css\/components\/_navigation.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1208,7 +1208,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/components\/_sidebar.css",
+		"oAP": "\/assets\/css\/components\/_sidebar.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1221,7 +1221,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/general\/_hacks.css",
+		"oAP": "\/assets\/css\/general\/_hacks.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1234,7 +1234,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/general\/_style.css",
+		"oAP": "\/assets\/css\/general\/_style.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1247,7 +1247,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/layout\/_front.css",
+		"oAP": "\/assets\/css\/layout\/_front.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1260,7 +1260,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/layout\/_kitchen-sink.css",
+		"oAP": "\/assets\/css\/layout\/_kitchen-sink.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1273,7 +1273,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/layout\/_page.css",
+		"oAP": "\/assets\/css\/layout\/_page.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1286,7 +1286,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/options\/_callouts.css",
+		"oAP": "\/assets\/css\/options\/_callouts.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1299,7 +1299,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/options\/_comments.css",
+		"oAP": "\/assets\/css\/options\/_comments.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1312,7 +1312,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/options\/_embeds.css",
+		"oAP": "\/assets\/css\/options\/_embeds.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1325,7 +1325,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/options\/_forms.css",
+		"oAP": "\/assets\/css\/options\/_forms.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1338,7 +1338,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/options\/_grid-tiles.css",
+		"oAP": "\/assets\/css\/options\/_grid-tiles.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1351,7 +1351,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/options\/_header.css",
+		"oAP": "\/assets\/css\/options\/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1364,7 +1364,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/options\/_menu-dropline.css",
+		"oAP": "\/assets\/css\/options\/_menu-dropline.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1377,7 +1377,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/options\/_profiles-ref.css",
+		"oAP": "\/assets\/css\/options\/_profiles-ref.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1390,7 +1390,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/options\/_tables.css",
+		"oAP": "\/assets\/css\/options\/_tables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1403,7 +1403,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/options\/_ux-fairydust.css",
+		"oAP": "\/assets\/css\/options\/_ux-fairydust.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1416,7 +1416,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/wp\/_editor-style.css",
+		"oAP": "\/assets\/css\/wp\/_editor-style.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1429,7 +1429,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/wp\/_wp-admin.css",
+		"oAP": "\/assets\/css\/wp\/_wp-admin.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1442,26 +1442,10 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/wp\/_wp-overrides.css",
+		"oAP": "\/assets\/css\/wp\/_wp-overrides.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"\/assets\/stylesheets\/app.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/stylesheets\/app-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/assets\/stylesheets\/app.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/stylesheets\/app.css.map",
-		"oF": 0
 		},
 	"\/bower.json": {
 		"ft": 524288,
@@ -1478,7 +1462,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/_su.scss",
 		"oF": 0,
 		"oS": 0,
@@ -1504,7 +1488,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/_susyone.scss",
 		"oF": 0,
 		"oS": 0,
@@ -2888,7 +2872,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/scss\/foundation.scss",
 		"oF": 0,
 		"oS": 0,
@@ -3018,7 +3002,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/foundation-sites\/scss\/settings\/_settings.scss",
 		"oF": 0,
 		"oS": 0,
@@ -4565,7 +4549,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/bower_components\/motion-ui\/src\/motion-ui.scss",
 		"oF": 0,
 		"oS": 0,
@@ -7994,7 +7978,7 @@
 		"autoOutputPathFilenamePattern": "*.css",
 		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "scss",
-		"autoOutputPathReplace2": "stylesheets",
+		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 3,
 		"createSourceMap": 1,
 		"debugStyle": 0,

@@ -5,12 +5,12 @@ Template Name: Front
 get_header(); ?>
 <!-- Test The theme changes -->
 
-
-<h1 class="tpl-name container">FRONTR TPL <?php c2c_reveal_template(); ?></h1>
-
-
 <div id="hero" class="hero" role="banner">
- <div class="container">
+
+<div class="container">
+
+<h1 class="tpl-name">FRONTR TPL <?php c2c_reveal_template(); ?></h1>
+
 	<div class="marketing">
 		<div class="tagline">
 			<h1><?php bloginfo( 'name' ); ?></h1>
@@ -42,19 +42,12 @@ get_header(); ?>
 
 <?php endif; ?>
 
-		</div><!-- container -->
-	</div><!-- core -->
+</div><!-- /container (core)-->
+</div><!-- core -->
 
 
-<?php do_action( 'semantique_after_content' ); ?>
+ <?php do_action( 'semantique_after_content' ); ?>
+ 
+<?php /* no closing container tag needed here */ ?>
 
-<div class="section-divider">
-	<hr />
-</div>
-
-
-
-
-
-
-<?php get_footer();
+ <?php get_footer();

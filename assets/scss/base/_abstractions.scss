@@ -154,6 +154,14 @@ $col-text-content: $col-black;
 	
 
 
+
+	
+@mixin fullyfluid {
+	width: 100%;
+	height: auto;
+	} 
+
+
 // CONSTANT ASPECT RATIO
 // to support hero responsivity
 @mixin aspect-ratio($width, $height) {
@@ -172,3 +180,6 @@ $col-text-content: $col-black;
 		bottom: 0;
 		}
 	}
+
+
+

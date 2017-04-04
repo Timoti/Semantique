@@ -18,6 +18,11 @@
 get_header(); ?>
 
 <div id="page" class="page" role="main">
+
+<div class="container">
+
+<h1 class="tpl-name">404 <?php c2c_reveal_template(); ?></h1>
+
 	<article class="main-content">
 	<?php if ( have_posts() ) : ?>
 
@@ -40,8 +45,9 @@ get_header(); ?>
 		<?php } ?>
 
 	</article>
-	<?php get_sidebar(); ?>
 
-</div>
+<?php get_sidebar(); ?>
+
+</div><!-- /container -->
 
 <?php get_footer();
