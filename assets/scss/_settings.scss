@@ -45,6 +45,12 @@
 // 1. Global
 // ---------
 
+// BRAND COLOURS (custom)
+//$col-brand-1: rgb(65, 197, 222); // blue
+//$col-brand-2: rgb(243, 122, 31); // //orange
+//$col-brand-3: rgb(53, 184, 19); //gold
+//$col-brand-4: rgb(75, 189, 32); //olive
+
 $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
@@ -65,7 +71,11 @@ $body-font-color: $black;
 $body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
-$global-padding: 1rem;
+$global-padding: 1rem;// BRAND COLOURS (custom)
+$col-brand-1: rgb(65, 197, 222); // blue
+$col-brand-2: rgb(243, 122, 31); // orange
+$col-brand-3: rgb(53, 184, 19); //gold
+$col-brand-4: rgb(75, 189, 32); //olive
 $global-weight-normal: normal;
 $global-weight-bold: bold;
 $global-radius: 0;
@@ -627,3 +637,12 @@ $topbar-submenu-background: $topbar-background;
 $topbar-link-color: #fff;
 $topbar-input-width: 200px;
 $topbar-unstack-breakpoint: medium;
+
+
+// LEGACY MAPPING
+
+// $horz-spacing-unit: gutter();
+// $vert-spacing-unit: gutter();
+
+$horz-spacing-unit: $global-padding*2;
+$vert-spacing-unit: $global-padding*2;

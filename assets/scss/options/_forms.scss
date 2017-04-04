@@ -1,0 +1,240 @@
+// Import external libraries.
+
+// @import "bourbon";
+// @import "neat";
+
+//@import "toolkit";
+
+
+input.form-text,
+textarea {
+	font-family: inherit;
+	padding: 0.5em;
+	.l-sidebar & {
+		padding: 0.25em;
+		}
+
+	}
+
+// set buttons to inherit branded font
+input[type=submit]	{
+	font-family: inherit;
+	font-weight: bold;
+	}
+
+
+//@import "homeblocked-resp-off-canvas";
+
+// eBlast Archive Signup
+.node__content #mc_embed_signup form {
+	padding: 0;
+	margin: 0;
+	font-family: inherit !important;
+	font-size: $fontsize-base !important;
+	.mc-field-group {
+	font-size: $fontsize-base !important;
+	> input {
+	font-size: $fontsize-feature;
+		}
+	> label {
+	font-size: $fontsize-base !important;
+	color: $col-gray;
+		}
+
+	}
+	.input-group input {
+		margin-right: 0.5em;
+		height: 1em;
+		width: 1em;
+		}
+	}
+
+
+form.webform-client-form {
+
+	// border: dotted $col-gray 1px;
+	// background-color: $col-gray-lighter;
+	// background-color:rgba(255,255,255, 0.5);
+	// padding: 0.5em;
+
+fieldset {
+	border: none !important;
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+	}
+input.form-text {
+	width: 100%;
+	font-weight: normal;
+	font-size: $fontsize-base;
+	}
+.form-type-radio {
+	display: inline;
+	}
+
+
+// community coho  pate signup
+.node-type-work	& {
+	input.webform-submit.button-primary {
+		font-size: 1.5em;
+		padding: 0.25em 0.1em  !important;
+		}
+	}
+
+
+// EOI signups
+
+.webform-component--interest-level,
+.webform-component--skills-contributable {
+	> label {
+	text-transform: uppercase;
+	}
+}
+
+.form-radios > div {
+		display: table-row;
+	input,
+	label {
+		display: table-cell;
+	}
+}
+
+
+
+
+
+// COMPACT FORMS
+	// hack to fix  compact-form module fail on email field
+
+ 	.webform-component-email {
+		position: relative;
+		}
+
+	.compact-form-label,
+	.webform-component-email label {
+		position: absolute;
+		top: 1px;
+		left: 5px;
+		z-index: 1;
+		font-size: .9em;
+		font-weight: normal;
+		color: $col-gray-light;
+		padding: $global-padding;
+		}
+
+	.form-item label {
+		font-weight: normal;
+		}
+
+
+
+// contact form
+
+.page-contact .form-item-message textarea.form-textarea.required {
+	height: 20em;
+	}
+
+	//vertical spacing
+	.form-item,
+	.form-actions {
+		margin-bottom: $vert-spacing-unit / 4;
+		}
+	p {
+		margin-bottom: 0;
+		}
+	.form-wrapper:last-child,
+	input.form-submit {
+		margin: 0;
+		}
+
+	.description {
+		font-size: $type-tiny;
+		color: $col-gray-light;
+		}
+
+	} //- webform client form
+
+
+
+
+
+
+// BIG TEXT BOXES
+
+.contact-form input.form-text,
+.user-login .form-text {
+	font-size: $type-size-lvl_3;
+	max-width: 100%;
+	}
+
+
+.l-page form {
+
+	> div {
+		margin-bottom: $vert-spacing-unit;
+
+		input[type="text"],
+		small {
+			display: block;
+			}
+		input[type="text"],
+		input[type="password"] {
+			font-size: $type-content;
+			padding: $global-padding;
+			&::placeholder {
+				padding: $global-padding;
+				}
+			}	
+		 small {
+			color: $col-gray;
+			margin-top: $global-padding;
+			}
+		}
+
+		input[type="submit"] {
+			@include btn-basic;
+			font-size: $type-content;
+			margin-left: 0;
+		}
+
+	}
+
+	.page-user-login form {
+		padding-top: 4rem;
+		}
+
+.webform-client-form .webform-component:first-child {
+	margin-top:0;
+	}
+
+
+
+
+.block-webform {
+	padding: $global-padding;
+	background-color: lighten($col-brand-1,20%);
+	background: transparent url(../images/diagonal-col-brand-1-tint.png) repeat top center scroll;
+	}
+
+.block.cta {
+	padding: $global-padding;
+	background-color: lighten($col-brand-2,20%);
+	background: transparent url(../images/diagonal-col-brand-2-tint.png) repeat top center scroll;
+	}
+
+input.webform-submit,
+.button-primary {
+	@include button-action;
+	background-color: $col-brand-1 !important; //hack
+	line-height: 1.4 !important; //hack
+	}
+
+.cta .button-primary,
+.cta a.button-primary {
+	@include button-action;
+	background-color: $col-brand-2 !important; //hack
+	&:hover {
+		text-decoration: none !important;
+		background-color: lighten($col-brand-2, 10%) !important; //hack	
+		}
+	}

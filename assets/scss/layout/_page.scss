@@ -1,7 +1,8 @@
 
 // .page,
 .container {
-	@include container(50rem)
+	@include container(50rem);
+	padding: 0 1em;
 		}
 
 .page.core {

@@ -39,7 +39,7 @@ function semantique_theme_support() {
 	add_theme_support( 'woocommerce' );
 
 	// Add foundation.css as editor style https://codex.wordpress.org/Editor_Style
-	add_editor_style( 'assets/stylesheets/foundation.css' );
+	add_editor_style( 'assets/css/app.css' );
 }
 
 add_action( 'after_setup_theme', 'semantique_theme_support' );

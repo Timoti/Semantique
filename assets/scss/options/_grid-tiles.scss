@@ -1,0 +1,42 @@
+
+
+// Tiles for Home Page Communities
+// /////////////////////////////////////////////
+
+
+
+
+.callout.communties,
+.callout.communities {
+	.view-content {	
+			// @include layout(inside);
+			//@include layout($tight-grid);			
+			@include span(nest);
+		.views-row {
+				float: left !important;
+				
+				clear: none;
+				img{
+					width: 100%;
+					height: auto;
+
+				}
+		}
+
+h5 {
+	display: none;
+}
+
+@include breakpoint(small) {
+			@include gallery(2 of 4);
+}
+@include breakpoint(medium) {
+			@include gallery(2 of 4);
+}
+@include breakpoint(large) {
+			@include gallery(1 of 4);
+}
+
+			}
+		}
+	

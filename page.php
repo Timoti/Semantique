@@ -24,7 +24,7 @@
 
  <?php while ( have_posts() ) : the_post(); ?>
 
-	 <article class="post-<?php the_ID(); ?> <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>">
+	 <article id="post-<?php the_ID(); ?>" <?php post_class('main-content') ?> >
 
 			 <h1 class="entry-title"><?php the_title(); ?></h1>
 

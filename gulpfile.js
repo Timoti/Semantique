@@ -62,7 +62,7 @@ var PATHS = {
     'assets/components/motion-ui/motion-ui.js',
 
     // Include your own custom scripts (located in the custom folder)
-    'assets/javascript/custom/*.js',
+    'assets/js/*.js',
   ],
   phpcs: [
     '**/*.php',
@@ -107,7 +107,7 @@ gulp.task('sass', function() {
   // Minify CSS if run with --production flag
   var minifycss = $.if(isProduction, $.minifyCss());
 
-  return gulp.src('assets/scss/foundation.scss')
+  return gulp.src('assets/scss/app.scss')
     .pipe($.sourcemaps.init())
     .pipe($.sass({
       includePaths: PATHS.sass
@@ -121,13 +121,13 @@ gulp.task('sass', function() {
     }))
     .pipe(minifycss)
     .pipe($.if(!isProduction, $.sourcemaps.write('.')))
-    .pipe(gulp.dest('assets/stylesheets'))
+    .pipe(gulp.dest('assets/css'))
     .pipe(browserSync.stream({match: '**/*.css'}));
 });
 
 // Lint all JS files in custom directory
 gulp.task('lint', function() {
-  return gulp.src('assets/javascript/custom/*.js')
+  return gulp.src('assets/js/*.js')
     .pipe($.jshint())
     .pipe($.notify(function (file) {
       if (file.jshint.success) {
@@ -160,7 +160,7 @@ gulp.task('javascript', function() {
     }))
     .pipe($.if(isProduction, uglify))
     .pipe($.if(!isProduction, $.sourcemaps.write()))
-    .pipe(gulp.dest('assets/javascript'))
+    .pipe(gulp.dest('assets/js'))
     .pipe(browserSync.stream());
 });
 
@@ -169,12 +169,12 @@ gulp.task('copy', function() {
   // Motion UI
   var motionUi = gulp.src('assets/components/motion-ui/**/*.*')
     .pipe($.flatten())
-    .pipe(gulp.dest('assets/javascript/vendor/motion-ui'));
+    .pipe(gulp.dest('assets/js/vendor/motion-ui'));
 
   // What Input
   var whatInput = gulp.src('assets/components/what-input/**/*.*')
       .pipe($.flatten())
-      .pipe(gulp.dest('assets/javascript/vendor/what-input'));
+      .pipe(gulp.dest('assets/js/vendor/what-input'));
 
   // Font Awesome
   var fontAwesome = gulp.src('assets/components/fontawesome/fonts/**/*.*')
@@ -235,15 +235,15 @@ gulp.task('clean', function(done) {
 // Clean JS
 gulp.task('clean:javascript', function() {
   return del([
-      'assets/javascript/foundation.js'
+      'assets/js/app.js'
     ]);
 });
 
 // Clean CSS
 gulp.task('clean:css', function() {
   return del([
-      'assets/stylesheets/foundation.css',
-      'assets/stylesheets/foundation.css.map'
+      'assets/css/app.css',
+      'assets/css/app.css.map'
     ]);
 });
 
@@ -263,7 +263,7 @@ gulp.task('default', ['build', 'browser-sync'], function() {
     });
 
   // JS Watch
-  gulp.watch(['assets/javascript/custom/**/*.js'], ['clean:javascript', 'javascript', 'lint'])
+  gulp.watch(['assets/js/**/*.js'], ['clean:javascript', 'javascript', 'lint'])
     .on('change', function(event) {
       logFileChange(event);
     });

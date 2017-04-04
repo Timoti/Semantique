@@ -1,0 +1,274 @@
+// $ CALLOUTS - aka HOME BLOCKS
+// ###############################################
+
+
+
+// mobile first spacing
+.l-content-main .callout {
+	@include clearfix;
+	margin-bottom: $vert-spacing-unit *2;
+	.form-text {
+		background-color: $col-white-trans-5;
+		}
+	}
+
+
+.l-header {
+	// background: url(../images/skewedbackpanel-thin-0.jpg) no-repeat 0 0;background-size: 100% 100%;
+	}
+
+
+.region-content-home-1 {
+
+	}
+
+
+@include breakpoint(largish) {
+
+.region-content-home-1,
+.region-content-home-2 {
+	@include clearfix;
+	//@include full-height-col-1true;
+	//margin-bottom: $vert-spacing-unit *2;
+
+	}
+
+
+
+// TEASER ITEM TRUNCATION  - BP specific
+.callout.blog .views-row {
+	&:nth-child(n+4){
+		display:none;
+@include breakpoint(small only) {
+		display:block;
+}
+	}
+ }
+
+}
+
+
+@include breakpoint(medium) {
+
+.l-content-main-core  {
+		.callout {
+		@include gallery(4 of 8);
+		}
+	}
+}
+
+
+@include breakpoint(largish) {
+
+.l-content-main-core  {
+		.callout {
+		@include gallery(4 of 12);
+		}
+	}
+}
+
+
+
+
+// TYPE
+// //////////////////////////////////////
+
+.callout h2 {
+
+	font-size: $type-size-lvl_2;
+
+@include breakpoint(small) {
+		font-size: $type-size-lvl_3;
+}
+
+@include breakpoint(large) {
+		font-size: $type-size-lvl_2;
+}
+
+	}
+
+.callout.big-type,
+.callout.about {
+	font-size: $type-size-lvl_3;
+	}
+
+
+
+
+
+// BLOG CALLOUT
+// //////////////////////////////////////
+
+.callout.blog .views-row {
+	margin-bottom: $vert-spacing-unit;
+	}
+
+// default hide full blog teasers
+.callout.blog .views-row > a:nth-child(2),
+.callout.blog .views-row .field-body {
+	display:none;
+	}
+
+// Fill out full first blog teaser
+// Allow for contextual menu elements in nth-child
+.not-logged-in {
+.callout.blog .views-row:nth-child(1) {
+	> a:first-child,
+	.field-body {
+		display: inline;
+		}
+	}
+}
+
+.logged-in {
+.callout.blog .views-row:nth-child(4) {
+	> a:first-child {
+	display: block;
+	}
+	.field-body {
+		display: inline;
+		}
+	}
+}
+
+// reduce h3 to body size for inline placement
+.callout.blog .views-row > h3 {
+	font-size: $fontsize-base;
+	}
+
+.callout.blog .views-row:not(:first-child) > h3 {
+	display: inline;
+	line-height: inherit;
+	}
+
+.callout.blog .views-row:not(:first-child) img {
+	display: none;
+	}
+
+
+.field-date {
+	@include nowrap;
+	}
+
+
+
+
+// HOME/LANDING CALLOUTS CONTENT TEMP
+// ///////////////////////
+.callout {
+	&.events p,
+	&.twitter .views-row,
+	&.communities h3 {
+	margin-bottom: $vert-spacing-unit *2;
+	}
+}
+
+// EVENTS
+// Temporary static block styling
+
+.callout.events {
+	p {
+		//margin-bottom: 0.5rem;
+		&:last-child {
+			margin-bottom: $vert-spacing-unit *4;
+			}
+		}
+
+	}
+
+
+// tighten facilties image content
+
+.callout.facilities  {
+	> p:nth-child(2) {
+		margin-bottom: 0;
+		}
+	img {
+		// clip-path: inset(25% 0);
+		// margin: (-15% 0 -20% 0);
+		}
+	h4 {
+		margin-top: 0.7em;
+	} 
+
+	}
+
+.callout.facilities,
+.callout.blog  {
+	> div > a {
+		display: block;
+		width: 100%;
+		height: 4em;
+		outline: solid white 2px;
+		}
+	img {
+		width: 100%;
+		display: inline;
+		object-fit: contain;
+		}
+	}
+
+
+
+
+// filter teaser images
+.front .l-content-main,
+.page-communities .l-content-main {
+	img {
+		filter: grayscale(100%);
+		&:hover {
+			filter: grayscale(0);
+			}
+		transition: 0.7s filter linear;	
+		}
+	.twitter img {
+			filter: grayscale(0);
+			border-radius: 50%;
+			border: solid rgba($white, 0.5)  1px;
+			}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+@mixin tint {
+	
+	// position: relative;
+	// float: left;
+	// margin-right: 20px;
+	// margin-bottom: 20px;
+	// cursor: pointer;
+	// box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+	&:before {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: rgba(0,255,255, 0.5);
+		transition: all .3s linear;
+		}
+	}
+
+	.tint:hover:before { background: none; }
+
+	.t2:before { background: rgba(0,0,255, 0.5); }
+	.t3:before { background: rgba(255,0,0, 0.5); }
+	.t4:before { background: rgba(0,255,0, 0.5); }
+	.t5:before { background: rgba(255,0,240, 0.5); }
+	.t6:before { background: rgba(255,102,0, 0.6); }
+
+
+
+
+

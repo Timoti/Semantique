@@ -13,7 +13,7 @@ if ( ! function_exists( 'semantique_scripts' ) ) :
 	function semantique_scripts() {
 
 	// Enqueue the main Stylesheet.
-	wp_enqueue_style( 'main-stylesheet', get_template_directory_uri() . '/assets/stylesheets/app.css', array(), '2.9.0', 'all' );
+	wp_enqueue_style( 'main-stylesheet', get_template_directory_uri() . '/assets/css/app.css', array(), '2.9.0', 'all' );
 
 	// Deregister the jquery version bundled with WordPress.
 	wp_deregister_script( 'jquery' );
@@ -22,10 +22,20 @@ if ( ! function_exists( 'semantique_scripts' ) ) :
 	wp_enqueue_script( 'jquery', '//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js', array(), '2.1.0', false );
 
 	// If you'd like to cherry-pick the foundation components you need in your project, head over to gulpfile.js and see lines 35-54.
-	// It's a good idea to do this, performance-wise. No need to load everything if you're just going to use the grid anyway, you know :)
-	wp_enqueue_script( 'foundation', get_template_directory_uri() . '/assets/javascript/foundation.js', array('jquery'), '2.9.0', true );
+	// It's a good idea to do this, performance-wise.
 
-	// Add the comment-reply library on pages where it is necessary
+	wp_enqueue_script( 'foundation_mobmenu_js', get_template_directory_uri() . '/assets/js/foundation/offCanvas.js', array('jquery'));
+	//add_action( 'wp_enqueue_scripts', 'foundation_mobmenu_js' );
+
+// just enqueue jquery as its already registered 
+	wp_enqueue_script('jquery'); 
+
+	/*   REGISTER ALL JS FOR SITE */
+	//wp_register_script('js_matchheight',get_stylesheet_directory_uri().'/assets/js/matchHeight.js');
+	wp_register_script('js_app',get_stylesheet_directory_uri().'/assets/js/app.js');
+
+
+	// Add the comment-reply library on required pages
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}

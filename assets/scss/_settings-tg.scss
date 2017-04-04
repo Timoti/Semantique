@@ -741,6 +741,7 @@ $tab-bar-height-lg: 4.75rem;
 
 // ABSTRACTIONS  - TMP
 
+// support Superfish menu
 @mixin tabbed-link {
 	border: 1px solid $col-tab-border;
 	color: $dark-gray;

@@ -17,6 +17,8 @@
 // WP overrides
 @import "wp/wp-admin"; // Fix issues with wp-admin bar positioning
 @import "wp/wp-overrides"; // Override the default WordPress styling for some elements
+@import "wp/editor-style";
+
 
 // Third-party libraries
 //@import 'font-awesome';
@@ -79,7 +81,7 @@
 @import "components/navigation";
 @import "components/footer";
 @import "components/sidebar";
-@import "components/editor-style";
+@import "components/card-gallery";
 
 // Base
 @import "base/buttons";

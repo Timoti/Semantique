@@ -8,8 +8,9 @@
 
 get_header(); ?>
 <h1 class="tpl-name">404</h1>
-<div class="row">
-	<div class="small-12 large-8 columns" role="main">
+
+<!-- nominal classname follows -->
+	<div class="full-width" role="main">
 
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 			<header>
@@ -30,5 +31,5 @@ get_header(); ?>
 
 	</div>
 	<?php get_sidebar(); ?>
-</div>
+
 <?php get_footer();

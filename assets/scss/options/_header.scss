@@ -1,0 +1,183 @@
+
+
+.l-header {
+	padding-top: $vert-spacing-unit;
+	div, nav, a {
+		//outline: dotted green 1px;
+		}
+
+	background-image: url(../images/bnr-building-halftone-md.png);
+	background-size: cover;
+	height: 100%;
+	display: block;
+	position: relative;
+	.l-header-head {
+		position: relative;
+
+		.l-header-nav	{
+			position: relative;
+
+			.l-region-header {
+				}
+			}
+		}
+
+	} //-/l-header
+
+
+
+// THE LOGO
+// /////////////////////////////////
+
+	.site-branding {
+		svg {
+			width:100%;
+			height:auto;
+		}
+		@include span(4 of 4);
+	@include breakpoint(medium) {
+		@include span(4 of 8);	
+	}	
+	@include breakpoint(large) {
+		@include span(4 of 12);	
+	}	
+
+		}
+
+
+// .site-logo svg {
+// 	path {
+// 		fill: $col-brand-1;
+// 		}
+// 	.a {
+// 		fill: $col-white;
+// 		}
+// 	}
+
+
+// height hack
+ .l-branding {
+
+	@include clearfix;
+	
+	position: relative;
+	z-index: 5;
+	@include span(4 of 4);
+
+	img {
+		width:100%;
+		transform-origin: top left;
+		transform: scale3d(1,1,1);
+		transition: transform 0.33s ease-in-out;
+		&:hover {
+			transform: scale3d(1.01,1.01,1);
+			}
+		}
+
+@include breakpoint(small) {
+	@include span(2 of 8);
+		// larger logo on home
+	.front & {
+		@include span(3 of 8);	
+		}
+	margin-bottom:$vert-spacing-unit;	
+}
+
+@include breakpoint(largish) {
+	@include span(2 of 12);
+	// larger logo on home
+	.front & {
+		@include span(4 of 12);	
+		}
+	margin-bottom: 0;
+	//padding: 0.5em;
+}
+
+	.site-logo {
+		display: block;
+		// suspend over home hero
+		.front & {
+			margin-bottom: -63%;
+			}
+		.node-type-blog & {
+			margin-bottom: -78%;
+			// tuck in from contained blog feature image
+			padding-left: 1em
+			}
+
+
+	}
+
+
+	} // -/.l-branding
+
+
+.site-tagline {
+	display: none !important;
+	}
+
+
+
+
+// NAV SECONDARY
+// /////////////////////////////////
+
+
+// secondary menu wrapper
+ .l-header-nav {
+ 	text-align: right;
+	@include span(last 3 of 4);
+	//@include post(1 of 6);
+@include breakpoint(small) {
+	@include span(last 4 of 8);
+	//@include post(3 of eight);
+	margin-bottom:10%;	
+}
+
+@include breakpoint(largish) {
+	@include span(last 8 of 12);
+	//@include post(2 of 12);
+	margin-bottom: 0;	
+}
+
+	}
+
+// .l-header .block-menu {
+// 	@include span(last 4 of 4);
+// @include breakpoint(small) {
+// 	@include span(last 6 of 6);
+// }
+// @include breakpoint(large) {
+// 	@include span(last 8 of 8);
+
+// }
+// 	}
+
+
+
+
+
+
+
+
+// 	.block.search.block--search {
+// @include breakpoint(small only) {
+// 		display:block;
+// 		float: right !important;
+// 		@include clearfix;
+// }
+
+// @include breakpoint(small only) {
+// 		@include span(4 of 8);
+// 		@include omega;
+// }
+
+// @include breakpoint(largish) {
+// 		@include span(4 of 16);
+
+// 		@include omega;
+// }
+// 	}
+
+
+

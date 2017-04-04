@@ -60,3 +60,26 @@ require_once( 'library/responsive-images.php' );
 // 	return $dfi_id; // the original featured image id
 // }
 // add_filter( 'dfi_thumbnail_id', 'dfi_posttype_book', 10, 2 );
+
+
+// enable excerpts optoin in screen optoins
+// will have to be enabled in screen options on a per post-type basis
+add_post_type_support( 'page', 'excerpt' );
+add_post_type_support( 'post', 'excerpt' );
+add_post_type_support( 'project', 'excerpt' );
+
+
+// manage length of excerpts
+
+/*function get_excerpt(){
+	$excerpt = get_the_content();
+
+	$excerpt = preg_replace(" ([.*?])",'',$excerpt);
+	$excerpt = strip_shortcodes($excerpt);
+	$excerpt = strip_tags($excerpt);
+	$excerpt = substr($excerpt, 0, 50);
+	$excerpt = substr($excerpt, 0, strripos($excerpt, " "));
+	$excerpt = trim(preg_replace( '/s+/', ' ', $excerpt));
+	$excerpt = $excerpt.'... <a href="'.$permalink.'">more</a>';
+	return $excerpt;
+	}*/

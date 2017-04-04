@@ -1,0 +1,174 @@
+
+// codekit global frameworks
+
+// @import "utilities/utilities";
+// @import "utilities/compass-pickings";
+// @import "utilities/scut";
+
+// local abstractions
+
+
+@mixin link-colors($normal, $hover: false, $active: false, $visited: false, $focus: false) {
+	color: $normal;
+	@if $visited {
+		&:visited {
+			color: $visited;
+			}
+		}
+	@if $focus {
+		&:focus {
+			color: $focus;
+			}
+		}
+	@if $hover {
+		&:hover {
+			color: $hover;
+			}
+		}
+	@if $active {
+		&:active {
+			color: $active;
+			}
+		}
+	}
+
+
+@mixin swell {
+		transform-origin: center center;
+		transform: scale3d(1,1,1);
+		transition: transform 0.33s ease-in-out;
+	&:hover {
+		transform: scale3d(1.05,1.05,1);
+		}
+	}
+
+// apply to parent element for full height
+// may need internal abso wrap for bkg-img placement
+@mixin full-height-col-1true {
+	// one true layout full height dynamic column
+  overflow: hidden;
+	> *	{
+		margin-bottom: -99999px !important;
+  	padding-bottom: 99999px !important;
+  	height: 100%;
+		}
+	}
+
+// precede with pos rel
+@mixin inner-abso-wrap {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	}
+
+
+@mixin sticky-footer-flex {
+	display: flex;
+	min-height: 100%;
+	flex-direction: column;
+> *:last-child {
+	flex: 1;
+		}
+	}
+
+
+
+// REVERSE PALLETTIZING
+
+$col-light: $col-white;
+$col-impact: $col-brand-1;
+$col-text-content: $col-black;
+
+
+@mixin col-impact {
+	background-color: $col-impact;
+	color: $col-light;
+
+	h1, h2, h3, h4, h5,
+	.crm-container label,
+	#crm-container label,
+	#crm-container.crm-public .price-set-row .crm-price-amount-label {
+		color: $col-white;
+		}
+
+	.l-header .menu a, {
+		color: $col-light;
+		}	
+
+	.l-header .menu, 
+	.title {
+		a:link,
+		a:visited,
+		a.block-title-link {
+				color: $col-light;
+				&:hover {
+					color: $col-brand-2;					
+					}
+				}		
+			}
+
+	.content,
+	.view-content,
+	.node {
+		a {
+			color: $col-brand-2;				
+			&:hover {
+				color: lighten($col-brand-2, 10%);					
+				}
+			}		
+		}
+
+	.l-footer {
+		background-color: $col-light;
+		color: $col-impact;
+		.logo-partner {
+			filter: invert(35%);
+			&:hover {
+				opacity: 0.7;	
+				}
+			}		
+		}
+	}
+	
+
+
+@mixin col-content {
+	background-color: $col-light;
+	color: $col-text-content;
+	h1, h2, h3, h4, h5 {
+		color: $col-brand-1;
+		}
+	.l-footer {
+		background-color: $col-impact;
+		.logo-partner {
+			filter: invert(100%);
+			}
+		color: $col-light;
+		h2.title {
+			color: $col-light;		
+			}
+		}
+	}
+	
+
+
+// CONSTANT ASPECT RATIO
+// to support hero responsivity
+@mixin aspect-ratio($width, $height) {
+	position: relative;
+	&:before {
+		display: block;
+		content: "";
+		width: 100%;
+		padding-top: ($height / $width) * 100%;
+	 }
+	> .content {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		}
+	}

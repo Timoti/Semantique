@@ -1,0 +1,322 @@
+
+
+// LANDING PAGE for galleries, with some potential UI magic
+// /////////////////////////////////////////////
+
+$trans-grid-obj: 0.5s;
+$grid-box-inset: 0.5rem;
+
+// move this somewhere handy to all
+@mixin fullyfluid {
+	width: 100%;
+	height: auto;
+	} 
+
+
+@-moz-keyframes 'blink' {
+	0% {opacity: 0;}
+	50% {opacity: 1;}
+	}
+
+@-webkit-keyframes 'blink' {
+	0% {opacity: 0;}
+	50% {opacity: 1;}
+	}
+
+@keyframes 'blink' {
+	0% {opacity: 0;}
+	50% {opacity: 1;}
+	}
+
+
+.views-grid-row {
+	width: 100%;
+	@include clearfix;
+
+	}
+
+
+//  GRID LANDING AGE
+// for QUERY WRANGLER GENERATED CARDS UI
+
+
+
+
+.query-projects-wrapper .query-row {
+	& ~ .view-header {
+		margin-bottom: $vert-spacing-unit;
+		}
+
+	// .block-system-main .query-row:nth-last-child(2) {
+	// 			clear:right;
+	// }
+
+	& ~ .view-footer {
+		width: 100%;
+		clear:left;
+		}
+	}
+
+
+
+
+$pad-grid-obj: 4px;
+
+.query-row {
+
+	padding: $pad-grid-obj;
+
+	// > div:nth-child(1) {
+	// 	margin: 0-$pad-grid-obj;
+	// }
+
+@include breakpoint(small) {
+// community  grid landing page
+
+	@include gallery(4 of 8);
+
+	img {
+		@include fullyfluid;
+		}
+
+} // - tab
+
+
+@include breakpoint(largish) {
+
+	@include gallery(4 of 12);
+	img {
+		@include fullyfluid;
+		}
+
+} // -desk-sm
+
+ }  // - .query-row
+
+
+
+//re-space headings
+
+// set actual page ID here…
+.card-gallery {
+
+.view-header {
+	margin-bottom: 1em;
+	//font-size: $type-blockhead;
+	}
+
+.view-content {
+	@include clearfix;
+	}
+
+
+
+@include breakpoint(small) {
+
+h1 {
+	font-size: 5em;
+	font-size: 5rem;
+	margin-bottom: 0.5em;
+	}
+
+.view-footer {
+	column-count: 2;
+	column-gap: $vert-spacing-unit;
+	-webkit-column-count: 2;
+	-webkit-column-gap: $vert-spacing-unit;
+	}
+
+}
+
+} // - /page-work
+
+
+
+$col-g-stop-1: rgba(0,0,0,0.65);
+$col-g-stop-2: rgba(0,0,0,0.45);
+$col-g-stop-3: rgba(0,0,0,0.45);
+$col-g-stop-4: rgba(0,0,0,0.45);
+
+
+
+// GRID OBJECT Teasers
+// /////////////////////////////////////////////
+// HT colin Toh for purecss stickteaserfooter and codedrops for smooth hover fx
+
+.query-row {
+	background-color: lighten(lightgray, 9%);
+	margin-bottom: $vert-spacing-unit  !important;
+	position:relative;
+	z-index: 1;
+	border-bottom: dotted $col-brand-1 1px;
+
+	// tgd span heads
+	h2:not(.block__title),
+	h3:not(.block__title) {
+		margin-top: 0.5rem;;
+		}
+
+	// hide temporary static pos heading
+
+
+	* {
+		margin-bottom: 0;
+		}
+
+	> a {
+		// close inline gap
+		font-size: 0;
+		display:block;
+		z-index: 99;
+
+		img {
+			width: 100%;
+			height: 100%;
+			position:relative;
+			z-index: 1;
+			}
+
+		}
+
+		// h3 link unstyling
+		h3 a:hover {
+			text-decoration: none;
+			opacity: 0.7;
+		}
+
+
+
+
+
+
+
+	// for table-row dyn stickyfooter
+	.fields-text  {
+		display:table;
+		height: 100%;
+
+		a:link,
+		a:visited {
+			color: $white;
+			text-decoration: none;
+			}
+
+		a:hover {
+			color: lighten($col-brand-1, 50%) !important;
+			text-decoration: none;
+			}
+
+
+		h4,
+		.field-teaser span {
+			display:block;
+			padding: $grid-box-inset $grid-box-inset 0 $grid-box-inset;
+			//outline: dotted blue 1px;
+			}
+
+		h4 {
+			top: 0;
+			color: $white;
+			font-size: 2rem;
+			text-shadow: 0px 0px 24px #181818;
+			transform-origin: top left;
+			transform: scale3d(1,1,1);
+			transition: transform $trans-grid-obj;
+			}
+
+
+		} //-/.fields-text
+
+
+
+
+	div {
+		position: relative;
+		z-index: 1;
+		&:hover a.colorbox:before {
+			opacity: 1;
+			}
+		}
+	a.colorbox:first-child {
+		&:before {
+			content:"";
+			display:block;
+			position: absolute;
+			z-index: 50;
+			height: 23%;
+			width: 20%;
+			background: rgba(0, 0, 0, 1 );
+			//background: rgba(0, 0, 0, 1 ) url(../images/ic-popup-sprite.png);			
+			background-size: cover;
+			background-repeat: none;
+			top: 0;
+			right: 0;
+			opacity: 0.7;
+
+
+			transform-origin: top right;
+			transform: scale3d(1,1,1);
+			transition: transform $trans-grid-obj;
+			}
+		}
+
+
+// group-project field-group-fieldset
+
+	&:hover {
+
+		h4 {
+
+			}
+		.link-view {
+			//visibility: visible;
+			opacity: 1;
+			}
+		.field-teaser {
+			opacity: 1;
+			transform: translate3d(0,0,0);
+			//transition-delay: 0, 0.5s;
+			overflow:none;
+			text-overflow:elipsis;
+			}
+
+		.fields-text::before {
+			opacity: 1;
+			//transform: translate3d(0,0,0);
+			//bottom: 2.5em;
+
+			} //-/.fields-text::before
+
+
+
+		div {
+			position: relative;
+			z-index: 1;
+			&:hover a.colorbox:before {
+				opacity: 1;
+				}
+
+			}
+
+
+		a.colorbox:first-child {
+			&:before {
+				transform: scale3d(1.2,1.2,1);
+				}
+			}
+
+		} //-//grid-obj:hover
+
+	} //-/.query-row
+
+
+// ensure view footer gets it's own row 
+.view-work-pages .view-content {
+	@include clearfix;
+	}
+
+
+// @-webkit-keyframes 'blink' {
+// 			0% {background-color: blue}
+// 			50% {background-color: black}
+// 			}

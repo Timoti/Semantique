@@ -75,6 +75,22 @@
 		"oAP": "\/archive.php",
 		"oF": 0
 		},
+	"\/assets\/css\/app.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/app-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/css\/app.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/app.css.map",
+		"oF": 0
+		},
 	"\/assets\/fonts\/fontawesome-webfont.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -251,47 +267,119 @@
 		"oAP": "\/assets\/images\/icons\/favicon.ico",
 		"oF": 0
 		},
-	"\/assets\/javascript\/custom\/flex-video.js": {
+	"\/assets\/js\/app.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/javascript\/custom\/min\/flex-video-min.js",
+		"oAP": "\/assets\/js\/min\/app-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/javascript\/custom\/init-foundation.js": {
+	"\/assets\/js\/fittext.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/javascript\/custom\/min\/init-foundation-min.js",
+		"oAP": "\/assets\/js\/min\/fittext-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/javascript\/custom\/joyride-demo.js": {
+	"\/assets\/js\/flex-video.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/javascript\/custom\/min\/joyride-demo-min.js",
+		"oAP": "\/assets\/js\/min\/flex-video-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/javascript\/custom\/offCanvas.js": {
+	"\/assets\/js\/init-foundation.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/javascript\/custom\/min\/offCanvas-min.js",
+		"oAP": "\/assets\/js\/min\/init-foundation-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/javascript\/custom\/stickyfooter.js": {
+	"\/assets\/js\/joyride-demo.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/javascript\/custom\/min\/stickyfooter-min.js",
+		"oAP": "\/assets\/js\/min\/joyride-demo-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/matchHeight.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/matchHeight-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/min\/app-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/min\/app-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/min\/flex-video-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/min\/flex-video-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/min\/init-foundation-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/min\/init-foundation-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/min\/joyride-demo-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/min\/joyride-demo-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/min\/offCanvas-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/min\/offCanvas-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/offCanvas.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/offCanvas-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/stickyfooter.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/stickyfooter-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -995,6 +1083,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/scss\/base\/_abstractions.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/stylesheets\/base\/_abstractions.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/scss\/base\/_buttons.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1047,7 +1148,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/scss\/components\/_editor-style.scss": {
+	"\/assets\/scss\/components\/_card-gallery.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1055,7 +1156,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/stylesheets\/components\/_editor-style.css",
+		"oAP": "\/assets\/stylesheets\/components\/_card-gallery.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1069,6 +1170,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/assets\/stylesheets\/components\/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/components\/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/stylesheets\/components\/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1160,6 +1274,149 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/assets\/stylesheets\/layout\/_page.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/options\/_callouts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/stylesheets\/options\/_callouts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/options\/_comments.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/stylesheets\/options\/_comments.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/options\/_embeds.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/stylesheets\/options\/_embeds.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/options\/_forms.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/stylesheets\/options\/_forms.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/options\/_grid-tiles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/stylesheets\/options\/_grid-tiles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/options\/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/stylesheets\/options\/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/options\/_menu-dropline.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/stylesheets\/options\/_menu-dropline.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/options\/_profiles-ref.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/stylesheets\/options\/_profiles-ref.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/options\/_tables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/stylesheets\/options\/_tables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/options\/_ux-fairydust.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/stylesheets\/options\/_ux-fairydust.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/wp\/_editor-style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/stylesheets\/wp\/_editor-style.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -5675,6 +5932,15 @@
 		"oAP": "\/library\/widget-areas.php",
 		"oF": 0
 		},
+	"\/min\/gulpfile-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/min\/gulpfile-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/MIT-LICENSE.txt": {
 		"ft": 8192,
 		"oA": 2,
@@ -5782,16 +6048,6 @@
 		"oA": 2,
 		"oAP": "\/snippets-static.php",
 		"oF": 0
-		},
-	"\/style-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/style-min-min.css",
-		"oF": 0,
-		"oS": 0
 		},
 	"\/style.css": {
 		"aP": 1,
@@ -7736,7 +7992,7 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/stylesheets",
+		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "scss",
 		"autoOutputPathReplace2": "stylesheets",
 		"autoOutputPathStyle": 3,
